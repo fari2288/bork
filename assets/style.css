@@ -1,0 +1,49 @@
+.LP__about {
+    width: 70%;
+    height: 1029px;
+    display: flex;
+
+}
+
+.LP__about_text {
+    background-color: black;
+    /*background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);*/
+
+}
+
+.LP__about_text-title {
+    font-family: 'Gotham Pro', Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.LP__about_text-text {
+    font-family: 'Gotham Pro', Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.LP__about-img {
+    height: 1029px;
+    width: 768px;
+    max-width: 100%;
+    background: url(../assets/LP/about-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div,
+.LP__about,
+.LP__about_text,
+.LP__about_text-title,
+.LP__about_text-text,
+.LP__about-img {
+    border: 1px solid black;
+}
