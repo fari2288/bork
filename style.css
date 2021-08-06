@@ -1,11 +1,13 @@
 .LP__about {
-    width: 70%;
-    height: 1029px;
     display: flex;
+    width: 100%;
+    height: 1029px;
 
 }
 
 .LP__about_text {
+    width: 70%;
+    height: 1029px;
     background-color: black;
     /*background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);*/
 
@@ -33,7 +35,7 @@
     height: 1029px;
     width: 768px;
     max-width: 100%;
-    background: url(../assets/LP/about-img.jpg);
+    background: url(../bork/assets/LP/about-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
