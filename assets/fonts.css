@@ -1,1 +1,4 @@
-@import url(../assets/Gotham-Pro.ttf);
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../assets/Gotham-Pro.ttf);
+}

@@ -2,50 +2,67 @@
     display: flex;
     width: 100%;
     height: 1029px;
+    background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
+    background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 1) 82.29%);
 
 }
 
 .LP__about_text {
-    width: 70%;
-    height: 1029px;
-    background-color: black;
-    /*background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);*/
+    width: 50%;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    margin: 160px 150px 0px 100px;
 
 }
 
 .LP__about_text-title {
-    font-family: 'Gotham Pro', Arial;
+    font-family: 'Gotham Pro', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
-    line-height: 61px;
+    line-height: 60px;
     color: #FFFFFF;
+    margin-bottom: 40px;
+
 }
 
 .LP__about_text-text {
-    font-family: 'Gotham Pro', Arial;
+    font-family: 'Gotham Pro', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 20px;
+    line-height: 25px;
     color: rgba(255, 255, 255, 0.6);
+
+}
+
+.LP__about-nav {
+    align-self: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .LP__about-img {
     height: 1029px;
-    width: 768px;
-    max-width: 100%;
+    width: 50%;
     background: url(../bork/assets/LP/about-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    display: flex;
 }
 
+/*
 .div,
 .LP__about,
 .LP__about_text,
 .LP__about_text-title,
 .LP__about_text-text,
-.LP__about-img {
+.LP__about-img,
+.LP__about-nav {
     border: 1px solid black;
 }
