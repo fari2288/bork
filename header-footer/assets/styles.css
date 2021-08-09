@@ -6,14 +6,20 @@
     position: absolute;
     padding-top: 70px;
     color: white;
+    cursor: pointer;
 }
+
+
 .img {
     width: 100%;
 }
+
 .header__text-logo {
     width: 100px;
     padding-left: 150px;
+    
 }
+
 
 .header__text-catalog {
     width: 200px;
@@ -42,6 +48,9 @@
     position: absolute;
     padding-top: 67px;
     padding-left: 1500px;
+}
+.vector {
+    padding-left: 10px;
 }
 .four {
     position: absolute;
@@ -87,6 +96,7 @@
 .latest__img {
     position: absolute;
 }
+
 .toster {
     width: 80vw;
     padding-left: 152px;
@@ -115,18 +125,39 @@
 .latest__video {
     display: none;
 }
+
 .video {
     width: 100%;
     height: 100%;
 }
 .footer {
     display: grid;
-    grid-template-columns: 1fr 20% 20% 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     background-color: #252525;
     color: white;
     height: 794px;
     width: 100%;
+    
+}
+.header__text {
+    font-family: Gotham Pro;
+font-size: 20px;
+line-height: 19px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.color,
+.latest {
+    font-family: Gotham Pro;
+font-size: 20px;
+line-height: 40px;
+color: rgba(255, 255, 255, 0.4);
+}
+.footer {
+    font-family: Gotham Pro;
+font-size: 30px;
+line-height: 29px;
 }
 .footer__logo {
     padding-left: 149px;
@@ -144,6 +175,7 @@
     padding-top: 100px;
     line-height: 19px;
 }
+
 .footer__text-partnership {
     padding-left: 60px;
 }
@@ -188,8 +220,7 @@
     padding-top: 20px;
 }
 .footer__text-button2 {
-    padding-top: 38px;
-    padding-left: 40px;
+    padding-top: 48px;
 }
 .footer__links-instagram,
 .footer__links-youtube,
