@@ -1,10 +1,10 @@
-
 .latest {
     background-color: $dark;
     height: 1500px;
     width: 100%;
     color: $white;
 }
+
 .latest__title {
     color: $white;
     text-align: center;
@@ -12,17 +12,20 @@
     padding-top: 164px;
     padding-bottom: 65px;
 }
+
 .latest__img-logo {
     position: absolute;
     padding-left: 250px;
     padding-top: 148px;
 }
+
 .latest__img-title {
     position: absolute;
     padding-left: 250px;
     padding-top: 318px;
     font-size: 64px;
 }
+
 .latest__img-price {
     position: absolute;
     padding-left: 250px;
@@ -46,12 +49,14 @@
     padding-top: 600px;
     cursor: pointer;
 }
+
 .latest__img-polygon {
     position: absolute;
     padding-left: 290px;
     padding-top: 616px;
     cursor: pointer;
 }
+
 .latest__video {
     position: absolute;
     padding-left: 152px;
@@ -60,16 +65,17 @@
     height: 810px;
     z-index: -1;
 }
+
 .header__text {
     font-family: Gotham Pro;
-font-size: 20px;
-line-height: 19px;
-color: $white;
-text-shadow: 0px 4px 4px $dark-grey;
+    font-size: 20px;
+    line-height: 19px;
+    color: $white;
+    text-shadow: 0px 4px 4px $dark-grey;
 }
 
 .latest {
     font-family: Gotham Pro;
-font-size: 64px;
-line-height: 61px;
+    font-size: 64px;
+    line-height: 61px;
 }

@@ -5,11 +5,11 @@
   display: flex;
   width: 100%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   position: absolute;
   padding-top: 70px;
   padding-left: 58px;
@@ -110,9 +110,9 @@
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   background-color: #252525;
   color: #FFFFFF;
   height: 794px;
@@ -192,7 +192,7 @@
   border-radius: 80px;
   border-style: none;
   -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
-          box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
   width: 331px;
   height: 76px;
   cursor: pointer;
@@ -204,12 +204,12 @@
 }
 
 .button2 {
-  -webkit-background: (linear-gradient, left top, left bottom, from(#E08E44), to(#77461A));
+  background: -webkit-gradient(linear, left top, left bottom, from(#E08E44), to(#77461A));
   background: linear-gradient(to bottom, #E08E44 0%, #77461A 100%);
   border-radius: 80px;
   border-style: none;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   width: 235px;
   height: 76px;
   color: #FFFFFF;
@@ -247,4 +247,5 @@
   line-height: 34px;
   color: rgba(255, 255, 255, 0.4);
 }
+
 /*# sourceMappingURL=styles.css.map */
