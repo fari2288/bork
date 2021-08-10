@@ -15,7 +15,7 @@
   justify-content: space-evenly;
   position: absolute;
   padding-top: 70px;
-  padding-left: 58px;
+  padding-left: 22px;
   color: #FFFFFF;
 }
 .header__four,
@@ -57,7 +57,7 @@
 
 .latest {
   background-color: #141313;
-  height: 1500px;
+  height: 1200px;
   color: #FFFFFF;
 }
 .img {
@@ -97,7 +97,7 @@
 
 .toster {
   width: 90vw;
-  padding-left: 152px;
+  padding-left: 149px;
   padding-top: 65px;
 }
 
