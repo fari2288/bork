@@ -1,5 +1,3 @@
-
-
 .header__text {
   position: absolute;
   display: -webkit-box;
@@ -15,7 +13,6 @@
   width: 100%;
   top: 60px;
   color: #FFFFFF;
-  border: yellow 1px solid;
 }
 .header {
   display: flex;
@@ -86,7 +83,6 @@ text-shadow: 0 0 5px #FFFFFF;
   background-color: #141313;
   height: 1200px;
   color: #FFFFFF;
-  border:  1px yellow solid;
 }
 
 .latest__title {
@@ -132,7 +128,6 @@ text-shadow: 0 0 5px #FFFFFF;
 }
 .latest__video {
   position: absolute;
-  border: solid 1px yellow;
   height: 50vh;
   }
 
@@ -246,7 +241,6 @@ padding-left: 11%;
     width: 50%;
     top: 60px;
     color: #FFFFFF;
-    border: yellow 1px solid;
   }
   .footer {
     display: flex;
@@ -269,16 +263,13 @@ padding-left: 11%;
 .footer__text-inn,
 .footer__text-rs {
   line-height: 19px;
-  border: 1px yellow solid;
   width: 25%;
 }
 .footer__text-request {
   width: 25%;
-  border: 1px solid yellow;
 }
 .footer__text-inn {
   color: #FFFFFF;
-  border: solid 1px yellow;
 }
 
 .footer__text-partnership,
@@ -320,7 +311,6 @@ padding-left: 11%;
     width: 50%;
     top: 60px;
     color: #FFFFFF;
-    border: yellow 1px solid;
   }
   .header__iphone {
     display: none;
@@ -338,7 +328,6 @@ padding-left: 11%;
     background-color: #252525;
       color: #FFFFFF;
       height: 100%;
-      border: 1px solid yellow;
   }
   .footer__links {
     display: flex;
@@ -355,14 +344,8 @@ padding-left: 11%;
   }
   .footer__text-inn {
     display: none;
-    border: yellow 1px solid;
   }
   
-  .footer__text-catalog,
-  .footer__text-partnership,
-  .footer__text-aboutus {
-    border: solid 1px yellow;
-  }
   
   .footer__text-rs {display: none;}
   
@@ -408,7 +391,6 @@ padding-left: 11%;
   background-color: #252525;
     color: #FFFFFF;
     height: 100%;
-    border: 1px solid yellow;
 }
 .color,
 .footer__logo {
@@ -417,7 +399,6 @@ padding-left: 11%;
 }
 .footer__text-inn {
   display: none;
-  border: yellow 1px solid;
 }
 .footer__links {
   display: flex;
@@ -429,11 +410,7 @@ padding-left: 11%;
   justify-content: center;
   padding-bottom: 5%;
 }
-.footer__text-catalog,
-.footer__text-partnership,
-.footer__text-aboutus {
-  border: solid 1px yellow;
-}
+
 .footer__text-rs {display: none;}
 
 .footer__text-phone {
