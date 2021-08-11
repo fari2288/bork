@@ -1,115 +1,365 @@
-.tfb-wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: #E5E5E5;
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../assets/GothamPro-Medium.ttf);
 }
 
-.tfb {
-    width: 1300px;
-    height: 800px;
-    background: #252525;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+$default-font: 'Gotham Pro',
+serif;
+$main-bg-color: #252525;
+$main-text-color:#FFFFFF;
+$lightning: #787878 0 0 0.375rem;
+
+@media screen and (min-width: 1024px) {
+
+    .tfb-wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #E5E5E5;
+    }
+
+    .tfb {
+        width: 1300px;
+        height: 800px;
+        background: $main-bg-color;
+        box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+    .tfb__header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+    }
+
+    .tfb__header a {
+        text-decoration: none;
+        color: $main-text-color;
+        margin-right: 36px;
+    }
+
+    .tfb__title {
+        display: flex;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 61px;
+        color: $main-text-color;
+        margin-top: 50px;
+    }
+
+    .tfb__title img {
+        margin: 20px 20px 50px 153px;
+    }
+
+    .tfb__title p {
+        margin: 20px 0px 0px 20px;
+    }
+
+    .tfb__subtitle {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        color: $main-text-color;
+        margin: 30px 0px 0px 153px;
+    }
+
+    .tfb__text {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: $main-text-color;
+        margin: 60px 0px 60px 153px;
+    }
+
+    .tfb__footer {
+        height: 240px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .tfb__footer-item {
+        width: 266px;
+        height: 235px;
+        background: #121212;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .iron {
+        background-image: url(../assets/TFB/iron.svg);
+    }
+
+    .plaid {
+        background-image: url(../assets/TFB/plaid.svg);
+    }
+
+    .teapot {
+        background-image: url(../assets/TFB/teapot.svg);
+    }
+
+    .massager {
+        background-image: url(../assets/TFB/massager.svg);
+    }
+
+    .tfb__footer-item:hover {
+        box-shadow: $lightning;
+    }
+
+    a:hover {
+        color: $main-text-color;
+        text-decoration: none;
+    }
 }
 
-.tfb__header {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    align-items: center;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .tfb-wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #E5E5E5;
+    }
+
+    .tfb {
+        width: 100%;
+        height: 100vh;
+        background: $main-bg-color;
+        box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
+
+    .tfb__header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+    }
+
+    .tfb__header a {
+        text-decoration: none;
+        color: $main-text-color;
+        margin-right: 36px;
+    }
+
+    .tfb__title {
+        display: flex;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2rem;
+        line-height: 61px;
+        color: $main-text-color;
+        margin-top: 20px;
+    }
+
+    .tfb__title img {
+        margin: 20px 20px 20px 100px;
+    }
+
+    .tfb__title p {
+        margin: 20px 0px 0px 20px;
+    }
+
+    .tfb__subtitle {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 34px;
+        color: $main-text-color;
+        margin: 30px 0px 0px 100px;
+    }
+
+    .tfb__text {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 24px;
+        color: $main-text-color;
+        margin: 30px 0px 0px 100px;
+    }
+
+    .tfb__footer {
+        height: 100vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: flex-start;
+        margin-top: 50px;
+
+    }
+
+    .tfb__footer-item {
+        width: 266px;
+        height: 235px;
+        background: #121212;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 10px;
+        box-sizing: border-box;
+    }
+
+    .iron {
+        background-image: url(../assets/TFB/iron.svg);
+    }
+
+    .plaid {
+        background-image: url(../assets/TFB/plaid.svg);
+    }
+
+    .teapot {
+        background-image: url(../assets/TFB/teapot.svg);
+    }
+
+    .massager {
+        background-image: url(../assets/TFB/massager.svg);
+    }
+
+    .tfb__footer-item:hover {
+        box-shadow: $lightning;
+    }
+
+    a:hover {
+        color: $main-text-color;
+        text-decoration: none;
+    }
 }
 
-.tfb__header a {
-    text-decoration: none;
-    color: #FFFFFF;
-    margin-right: 36px;
-}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .tfb-wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #E5E5E5;
+    }
 
-.tfb__title {
-    display: flex;
-    font-family: 'Gotham Pro', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 61px;
-    color: #FFFFFF;
-    margin-top: 50px;
-}
+    .tfb {
+        width: 100%;
+        height: 100%;
+        background: $main-bg-color;
+        box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+    }
 
-.tfb__title img {
-    margin: 20px 20px 50px 153px;
-}
+    .tfb__header {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        align-items: center;
+    }
 
-.tfb__title p {
-    margin: 20px 0px 0px 20px;
-}
+    .tfb__header a {
+        text-decoration: none;
+        color: $main-text-color;
+        margin-right: 50px;
+    }
 
-.tfb__subtitle {
-    font-family: 'Gotham Pro', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
-    color: #FFFFFF;
-    margin: 30px 0px 0px 153px;
-}
+    .tfb__title {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 20px;
+        color: $main-text-color;
+        margin-top: 10px;
+    }
 
-.tfb__text {
-    font-family: 'Gotham Pro', serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin: 60px 0px 60px 153px;
-}
+    .tfb__title img {
+        margin: 20px 20px 20px 30px;
+    }
 
-.tfb__footer {
-    height: 240px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
+    .tfb__title p {
+        margin: 20px 0px 0px 20px;
+    }
 
-}
+    .tfb__subtitle {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 15px;
+        color: $main-text-color;
+        margin: 30px 0px 0px 30px;
+    }
 
-.tfb__footer-item {
-    width: 266px;
-    height: 235px;
-    background: #121212;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 10px;
-    box-sizing: border-box;
-}
+    .tfb__text {
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 15px;
+        color: $main-text-color;
+        margin: 30px 0px 0px 30px;
+    }
 
-.iron {
-    background-image: url(../assets/TFB/iron.svg);
-}
+    .tfb__footer {
+        height: 100vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: flex-start;
+        margin-top: 50px;
 
-.plaid {
-    background-image: url(../assets/TFB/plaid.svg);
-}
+    }
 
-.teapot {
-    background-image: url(../assets/TFB/teapot.svg);
-}
+    .tfb__footer-item {
+        width: 266px;
+        height: 235px;
+        background: #121212;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 5px;
+        box-sizing: border-box;
+    }
 
-.massager {
-    background-image: url(../assets/TFB/massager.svg);
-}
+    .iron {
+        background-image: url(../assets/TFB/iron.svg);
+    }
 
-.tfb__footer-item:hover {
-    box-shadow: #787878 0 0 0.375rem;
-}
+    .plaid {
+        background-image: url(../assets/TFB/plaid.svg);
+    }
 
-a:hover {
-    color: #FFFFFF;
-    text-decoration: none;
+    .teapot {
+        background-image: url(../assets/TFB/teapot.svg);
+        display: none;
+    }
+
+    .massager {
+        background-image: url(../assets/TFB/massager.svg);
+        display: none;
+    }
+
+
 }
