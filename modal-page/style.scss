@@ -1,0 +1,484 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(../assets/GothamPro-Medium.ttf);
+}
+
+$default-font: 'Gotham Pro',
+serif;
+$main-bg-color: #252525;
+$main-text-color:#FFFFFF;
+$lightning: #787878 0 0 0.375rem;
+
+@media screen and (min-width: 1024px) {
+
+    .modal-page__wrapper {
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+
+        .modal-page {
+            width: 50%;
+            height: 800px;
+            background-color: $main-bg-color;
+            box-shadow: -20px 0px 50px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+
+            .modal-page__header {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__header a {
+                text-decoration: none;
+                color: $main-text-color;
+                margin-left: 80px;
+            }
+
+            .modal-page__logo {
+                width: 100%;
+                height: 70px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__logo img {
+                margin: 100px 0px 0px 120px;
+            }
+
+            .modal-page__title {
+                width: 100%;
+                height: 70px;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__title p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 30px;
+                line-height: 35px;
+                color: $main-text-color;
+                margin: 100px 0px 0px 120px
+            }
+
+            .modal-page__subtitle p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.7);
+                margin: 20px 0px 0px 120px
+            }
+
+            .modal-page__input-name {
+                width: 330px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 120px;
+                padding-left: 20px;
+            }
+
+            .modal-page__input-phone {
+                width: 330px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 120px;
+                padding-left: 20px;
+            }
+
+            .modal-page__input-name:hover {
+                box-shadow: $lightning
+            }
+
+            .modal-page__input-phone:hover {
+                box-shadow: $lightning
+            }
+
+            .submit:hover {
+                box-shadow: $lightning
+            }
+
+            .submit {
+                width: 200px;
+                height: 60px;
+                background: linear-gradient(180deg, #D1843E 0%, #77461A 100%);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 120px;
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 29px;
+                color: $main-text-color;
+                text-align: center;
+            }
+
+            .modal-page__submit {
+                width: 330px;
+                height: 50px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+                margin: 40px 0px 0px 120px;
+            }
+
+            .modal-page__submit-reminder {
+                width: 52px;
+                height: 47px;
+                border: 2px solid #3F3F3F;
+                box-sizing: border-box;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+
+            }
+
+            .modal-page__submit p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+                color: #3F3F3F;
+                margin-left: 20px;
+            }
+
+            .modal-page__submit-reminder:hover {
+                box-shadow: $lightning
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .modal-page__wrapper {
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+
+        .modal-page {
+            width: 50%;
+            height: 100vh;
+            background-color: $main-bg-color;
+            box-shadow: -20px 0px 50px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+
+            .modal-page__header {
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__header a {
+                text-decoration: none;
+                color: $main-text-color;
+                margin-left: 50px;
+            }
+
+            .modal-page__logo {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__logo img {
+                margin: 40px 0px 0px 80px;
+                max-width: 100%;
+            }
+
+            .modal-page__title {
+                width: 100%;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__title p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.5rem;
+                line-height: 35px;
+                color: $main-text-color;
+                margin: 40px 0px 0px 80px;
+                text-align: left;
+
+            }
+
+            .modal-page__subtitle p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.7);
+                margin: 20px 0px 0px 80px;
+            }
+
+            .modal-page__input-name {
+                width: 250px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 80px;
+                padding-left: 20px;
+            }
+
+            .modal-page__input-phone {
+                width: 250px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 80px;
+                padding-left: 20px;
+            }
+
+            .modal-page__input-name:hover {
+                box-shadow: $lightning
+            }
+
+            .modal-page__input-phone:hover {
+                box-shadow: $lightning
+            }
+
+            .submit:hover {
+                box-shadow: $lightning
+            }
+
+            .submit {
+                width: 250px;
+                height: 60px;
+                background: linear-gradient(180deg, #D1843E 0%, #77461A 100%);
+                border-radius: 80px;
+                border: none;
+                margin: 20px 0px 0px 80px;
+                font-family: $default-font;
+                font-style: normal;
+                font-size: 1rem;
+                line-height: 29px;
+                color: $main-text-color;
+                text-align: center;
+            }
+
+            .modal-page__submit {
+                width: 250px;
+                height: 50px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+                margin: 40px 0px 0px 80px;
+            }
+
+            .modal-page__submit-reminder {
+                width: 52px;
+                height: 47px;
+                border: 2px solid #3F3F3F;
+                box-sizing: border-box;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+
+            }
+
+            .modal-page__submit p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+                color: #3F3F3F;
+                margin-left: 20px;
+            }
+
+            .modal-page__submit-reminder:hover {
+                box-shadow: $lightning
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .modal-page__wrapper {
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        .modal-page {
+            width: 100%;
+            height: 100vh;
+            background-color: $main-bg-color;
+            box-shadow: -20px 0px 50px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+
+
+            .modal-page__header {
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__header a {
+                text-decoration: none;
+                color: $main-text-color;
+                margin-left: 20px;
+            }
+
+            .modal-page__logo {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__logo img {
+                max-width: 100%;
+            }
+
+            .modal-page__title {
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+            }
+
+            .modal-page__title p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.5rem;
+                line-height: 35px;
+                color: $main-text-color;
+
+                text-align: center;
+
+            }
+
+            .modal-page__subtitle p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 18px;
+                color: rgba(255, 255, 255, 0.7);
+
+                text-align: center;
+            }
+
+            .modal-page__input-name {
+                width: 200px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+
+                padding-left: 20px;
+            }
+
+            .modal-page__input-phone {
+                width: 200px;
+                height: 60px;
+                background: #0F0F0F;
+                box-shadow: 3px 3px 12px rgba(255, 255, 255, 0.1), inset 15px 15px 15px rgba(0, 0, 0, 0.5);
+                border-radius: 80px;
+                border: none;
+
+                padding-left: 20px;
+            }
+
+            .submit {
+                width: 250px;
+                height: 60px;
+                background: linear-gradient(180deg, #D1843E 0%, #77461A 100%);
+                border-radius: 80px;
+                border: none;
+
+                font-family: $default-font;
+                font-style: normal;
+                font-size: 1rem;
+                line-height: 29px;
+                color: $main-text-color;
+                text-align: center;
+            }
+
+            .modal-page__submit {
+                width: 200px;
+                height: 50px;
+                display: flex;
+                justify-content: flex-start;
+                align-content: center;
+                align-items: center;
+
+            }
+
+            .modal-page__submit-reminder {
+                width: 52px;
+                height: 47px;
+                border: 2px solid #3F3F3F;
+                box-sizing: border-box;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+
+            }
+
+            .modal-page__submit p {
+                font-family: $default-font;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 0.7rem;
+                line-height: 10px;
+                color: #3F3F3F;
+                margin-left: 20px;
+            }
+
+        }
+    }
+}
