@@ -19,10 +19,15 @@
 <body>
 
     <header class="header">
+        <div class="header__logo">
+            <img src="../assets/header/logo-white.svg" alt="" class="logo">
+        </div>
+
         <div class="header__text">
-            <div class="header__text-logo"><img src="../assets/header/logo-white.svg" alt="" class="logo"></div>
+
             <div class="header__text-catalog">
-                <p class="catalog">КАТАЛОГ</p>
+                <div class="catalog">
+                    <p class="text">КАТАЛОГ</p>
                     <div class="dropdown">
                         <button class="btn" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown">
                             <img src="../assets/header/vector.svg" alt="" class="vector">
@@ -34,15 +39,18 @@
                             <li><a class="dropdown-item" href="#">Premium товары</a></li>
                         </ul>
                     </div>
-                
+                </div>
+
             </div>
+
             <div class="header__text-aboutus">О НАС</div>
             <div class="header__text-partnership">СОТРУДНИЧЕСТВО</div>
             <div class="header__text-contacts">КОНТАКТЫ</div>
-            <div class="header__text-basket">
-                <img src="../assets/header/basket.svg" alt=""></div>
+
 
         </div>
+        <div class="header__text-basket">
+            <img src="../assets/header/basket.svg" alt=""></div>
         <div class="header__ellipse2"><img src="../assets/header/ellipse2.svg" alt=""></div>
         <div class="header__four">
             <p>4</p>
@@ -51,6 +59,15 @@
             <img src="../assets/header/vozduh.jpg" alt="" class="img">
         </div>
 
+
+        <div class="header__iphone">
+            <div class="time">9:27</div>
+            
+                <div><img src="../assets/header/Cellular.svg"></div>
+                <div><img src="../assets/header/Wifi.svg"></div>
+                <div><img src="../assets/header/Battery.svg"></div>
+            
+        </div>
     </header>
 
 
@@ -71,7 +88,7 @@
 
 
 
-        <div class="latest__video"><iframe width="962" height="541" src="https://www.youtube.com/embed/ZmogX5SL5G4"
+        <div class="latest__video"><iframe width="" height="" src="https://www.youtube.com/embed/ZmogX5SL5G4"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen class="video">
@@ -130,9 +147,10 @@
         </div>
 
         <div class="footer__text-button2">
-            <button class="button2" type="button">
-                ОТПРАВИТЬ
-            </button></div>
+            <form action="../modal page/index.html">
+                <button class="button2" type="submit">ОТПРАВИТЬ</button>
+            </form>
+        </div>
 
 
         <div class="footer__links">
