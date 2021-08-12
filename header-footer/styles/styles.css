@@ -265,7 +265,6 @@
   .footer__text-rs {
     width: 25%;
     min-width: 300px;
-    border: solid 1px yellow;
   }
 
   .footer__text-inn {
@@ -283,9 +282,6 @@
     min-width: 300px;
   }
 
-  .footer__text-aboutus {
-    border: yellow 1px solid;
-  }
 
   .color {
     font-family: Gotham Pro;
@@ -339,7 +335,6 @@
     padding-bottom: 5%;
   }
 .button2 {
-  border: tomato 1px solid;
   width: 25%;
   min-width: 300px;
 }
@@ -353,9 +348,6 @@
     text-align: center;
   }
 
-.button1 {
-  border: blue 1px solid;
-}
   .footer__text-inn {
     display: none;
   }
