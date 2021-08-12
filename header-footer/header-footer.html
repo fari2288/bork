@@ -12,8 +12,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
+    <link href="../assets/latest/init.js">
 </head>
 
 <body>
@@ -74,25 +73,34 @@
     <section class="latest">
         <h2 class="latest__title">Новинка</h2>
 
-        <div class="latest__img">
-            <img src="../assets/latest/toster.jpg" alt="" class="toster">
+
+
+
+
+        <div class="video">
+            <video class="video__video" autoplay loop>
+                <source src="../assets/latest/bork.webm" type="video/webm" class="video1">
+                <source src="../assets/latest/bork.mp4" type="video/mp4" class="video1">
+            </video><div class="video__overlay">
+                <img src="../assets/latest/toster.jpg" class="toster"></div>
+            <div class="latest__img-logo"><img src="../assets/latest/logo-white.svg" alt="" class="logo"></div>
+            <div class="latest__img-title">Тостер BORK</div>
+            <div class="latest__img-price">
+                <p class="price">27.990 <i class="fas fa-ruble-sign"></i></p>
+            </div>
+            <div class="latest__img-ellipse">
+                <img src="../assets/latest/ellipse.svg" alt="" class="ellipse"></div>
+            <div class="latest__img-polygon"><img src="../assets/latest/polygon.svg" alt="" class="polygon"></div>
+
+            
+
         </div>
 
-        <div class="latest__img-ellipse"><img src="../assets/latest/ellipse.svg" alt="" class="ellipse"></div>
-        <div class="latest__img-polygon"><img src="../assets/latest/polygon.svg" alt="" class="polygon"></div>
-        <div class="latest__img-logo"><img src="../assets/latest/logo-white.svg" alt="" class="logo"></div>
-        <div class="latest__img-title">Тостер BORK</div>
-        <div class="latest__img-price">
-            <p class="price">27.990 <i class="fas fa-ruble-sign"></i></p>
+
+
+
+
         </div>
-
-
-
-        <div class="latest__video"><iframe width="" height="" src="https://www.youtube.com/embed/ZmogX5SL5G4"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen class="video">
-            </iframe></div>
     </section>
 
 
@@ -169,6 +177,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>

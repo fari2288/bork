@@ -1,0 +1,21 @@
+let video;
+let display;
+
+video = document.querySelector ('video__video');
+
+document.querySelector('#play').onclick = play;
+document.querySelector('#pause').onclick = pause;
+document.querySelector('#stop').onclick = stop;
+document.querySelector('#pause').onclick = pause;
+document.querySelector('#play').onclick = play;
+document.querySelector('#pause').onclick = pause;
+
+
+function play() {
+  video.play();
+}
+
+
+function stop() {
+  video.stop();
+}
