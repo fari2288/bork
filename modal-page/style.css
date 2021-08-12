@@ -378,7 +378,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   .modal-page__wrapper {
     background-color: #E5E5E5;
     display: -webkit-box;

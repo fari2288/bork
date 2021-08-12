@@ -262,7 +262,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   .tfb-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
