@@ -69,7 +69,7 @@
   text-decoration: none;
 }
 
-.header__text-basket {
+.header__basket {
   position: absolute;
   right: 100px;
   padding-top: 70px;
@@ -137,8 +137,8 @@
   cursor: pointer;
 }
 
-.footer__text-button2 {
-  padding-top: 48px;
+.footer__button2 {
+  padding-top: 50px;
 }
 
 .button2:hover {
@@ -163,14 +163,13 @@
   height: 100%;
 }
 
-.video__overlay {
+.latest__video-overlay {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   min-width: 100%;
-  border: yellow 1px solid;
 }
 
 .logo {
@@ -179,7 +178,7 @@
   top: 10%;
 }
 
-.video__overlay:hover {
+.latest__video-overlay:hover {
   z-index: -1;
 }
 
@@ -215,10 +214,10 @@
   width: 30px;
   height: 30px;
 }
-.footer__text-inn .hover:hover,
-.footer__text-catalog .hover:hover,
-.footer__text-partnership .hover:hover,
-.footer__text-aboutus .hover:hover {
+.footer__inn .hover:hover,
+.footer__catalog .hover:hover,
+.footer__partnership .hover:hover,
+.footer__aboutus .hover:hover {
   text-shadow: 0 0 3px #FFFFFF;
 }
 .color__item:hover {
@@ -269,30 +268,26 @@
     min-width: 100%;
   }
 
-
-  .footer__text-catalog,
-  .footer__text-partnership,
-  .footer__text-aboutus,
-  .footer__text-inn,
-  .footer__text-request,
-  .footer__text-button2,
+  .footer__catalog,
+  .footer__partnership,
+  .footer__aboutus,
+  .footer__inn,
+  .footer__request,
+  .footer__button2,
   .footer__links,
-  .footer__text-rs {
+  .footer__rs {
     width: 25%;
     min-width: 300px;
   }
 
-  .footer__text-inn {
+  .footer__inn {
     color: #FFFFFF;
   }
 
-  .footer__text-phone {
+  .footer__phone {
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
   }
-
-  
-
 
   .color {
     font-family: Gotham Pro;
@@ -353,25 +348,25 @@
     min-width: 300px;
   }
 
-  .footer__text-button2 {
+  .footer__button2 {
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
   }
 
-  .footer__text-request {
+  .footer__request {
     text-align: center;
   }
 
-  .footer__text-inn {
+  .footer__inn {
     display: none;
   }
 
-  .footer__text-rs {
+  .footer__rs {
     display: none;
   }
 
-  .footer__text-phone {
+  .footer__phone {
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
   }
@@ -442,7 +437,7 @@
     display: none;
   }
 
-  .footer__text-inn {
+  .footer__inn {
     display: none;
   }
 
@@ -452,7 +447,7 @@
     padding-bottom: 5%;
   }
 
-  .footer__text-button2 {
+  .footer__button2 {
     padding-bottom: 10%;
   }
 
@@ -460,11 +455,11 @@
     width: 80%;
   }
   
-  .footer__text-rs {
+  .footer__rs {
     display: none;
   }
 
-  .footer__text-phone {
+  .footer__phone {
     font-size: 30px;
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
