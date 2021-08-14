@@ -10,29 +10,10 @@
   color: #FFFFFF;
 }
 
-.header__four {
-  position: absolute;
-  right: 104px;
-  padding-top: 64px;
-  color: white;
-  font-size: 10px;
-}
-
-.header__ellipse2 {
-  position: absolute;
-  right: 100px;
-  padding-top: 58px;
-}
 
 .header__four,
 .header__ellipse2 {
   position: absolute;
-}
-
-.header__logo {
-  position: absolute;
-  left: 10%;
-  top: 10%;
 }
 
 .header__text-aboutus:hover,
@@ -51,89 +32,31 @@
   display: flex;
 }
 
-.vector {
-  padding-top: 10px;
-}
-
-.text {
-  padding-top: 17px;
-}
-
 .dropdown {
   border-style: none;
-  padding-bottom: 8px;
   cursor: pointer;
 }
-
+.btn,
+.dropdown-menu .dropdown-menu-dark {
+  border-style: none;
+}
 .dropdown:hover {
-  text-decoration: none;
+  border-style: none;
+
 }
 
-.header__text-basket {
-  position: absolute;
-  right: 100px;
-  padding-top: 70px;
-}
-
-.latest {
-  background-color: #141313;
-  height: 160vh;
-  color: #FFFFFF;
-}
-
-.latest__title {
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 64px;
-  padding-top: 164px;
-  padding-bottom: 65px;
-}
-
-.latest {
-  font-family: Gotham Pro;
-  font-size: 64px;
-  line-height: 61px;
-}
 
 .footer {
   font-family: Gotham Pro;
   font-size: 30px;
   line-height: 29px;
 }
-
-.button1 {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-radius: 80px;
-  border-style: none;
-  -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
-  box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
-  width: 80%;
-  height: 76px;
-  cursor: pointer;
-  text-align: center;
-}
-
 .button1:hover {
   background-color: #252525;
 }
-
-.button2 {
-  background: linear-gradient(to bottom, #E08E44, #77461A);
-  border-radius: 80px;
-  border-style: none;
-  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  height: 76px;
-  width: 80%;
-  color: #FFFFFF;
-  font-size: 20px;
-  cursor: pointer;
+.footer__button2 {
+  padding-top: 50px;
 }
-
-.footer__text-button2 {
-  padding-top: 48px;
-}
-
 .button2:hover {
   background: linear-gradient(to bottom, #dda06b 0%, #8d6039 100%);
 }
@@ -143,94 +66,63 @@
   font-size: 36px;
   line-height: 34px;
   color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 10%;
+  top: 60%;
 }
 
-
-.video__video {
+.latest__video-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
 }
 
-.video__overlay {
-  position: absolute;
+.latest__video-overlay {
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   min-width: 100%;
+}
+
+
+.latest__video-overlay:hover {
   z-index: -1;
 }
-.video__overlay:hover {
-  z-index: -1;
-  display: none;
-}
-.video {
+
+.latest__video {
   position: relative;
   left: 10%;
   width: 80%;
-  height: 80vh;
   min-width: 80%;
 }
+
 .toster {
   width: 100%;
   height: 100%;
-  border: 1px solid yellow;
   min-width: 100%;
 }
 .toster:hover {
   display: none;
   z-index: -1;
 }
-.latest__img-ellipse:hover,
-.latest__img-logo:hover,
-.latest__img-price:hover,
-.latest__img-title:hover,
-.latest__img-polygon:hover {
-  opacity: 0;
-}
-.latest__img-logo {
-  position: absolute;
-  left: 10%;
-  top: 10%;
-  min-width: 100%;
-}
 
-.latest__img-title {
-  position: absolute;
-  left: 10%;
-  top: 40%;
-  font-size: 64px;
-  min-width: 100%;
+.footer__inn .hover:hover,
+.footer__catalog .hover:hover,
+.footer__partnership .hover:hover,
+.footer__aboutus .hover:hover {
+  text-shadow: 0 0 3px #FFFFFF;
 }
-
-.latest__img-price {
-  position: absolute;
-  left: 10%;
-  top: 60%;
-  font-size: 36px;
-  min-width: 100%;
+.color__item:hover {
+  color: white;
 }
-
-.latest__img-ellipse {
-  position: absolute;
-  left: 10%;
-  top: 73%;
-  width: 100%;
-  min-width: 100%;
-  cursor: pointer;
-}
-
-.latest__img-polygon {
-  position: absolute;
-  left: 13%;
-  top: 76%;
-  width: 100%;
-  min-width: 100%;
-  cursor: pointer;
-}
-
+.footer__links {
+    padding-top: 5%;
+    min-width: 300px;
+  }
 
 @media screen and (min-width: 1024px) {
   .header__text {
@@ -247,10 +139,49 @@
     justify-content: space-evenly;
     flex-grow: 1;
     width: 50%;
-    top: 70px;
+    margin-bottom: 5%;
+    top: 7%;
     color: #FFFFFF;
   }
+  .text {
+    padding-top: 10px;
+  }
+.header__logo {
+  position: absolute;
+  left: 10%;
+  top: 8%;
+}
+.header__basket {
+  position: absolute;
+  right: 10%;
+  top: 8%;
+}
 
+.header__four {
+  position: absolute;
+  right: 10%;
+  top: 7%;
+  color: white;
+  font-size: 10px;
+}
+
+.header__ellipse2 {
+  position: absolute;
+  right: 10%;
+  top: 7%;
+}
+  .header__text-aboutus,
+  .header__text-contacts,
+  .header__text-catalog,
+  .header__text-partnership {
+    padding-inline: 20px;
+  }
+  .latest {
+    background-color: #141313;
+    height: 1200px;
+    color: #FFFFFF;
+    min-width: 100%;
+  }
   .footer {
     display: flex;
     flex-wrap: wrap;
@@ -271,35 +202,100 @@
     justify-content: center;
     min-width: 100%;
   }
+  
+  .ellipse {
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    width: 70px;
+    height: 70px;
+  }
+  .polygon {
+    position: absolute;
+    left: 12%;
+    top: 80%;
+    width: 30px;
+    height: 30px;
+  }
+  .latest {
+    font-family: Gotham Pro;
+    font-size: 64px;
+    line-height: 61px;
+  }
+  
+.latest__title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 64px;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.price {
+  font-family: 'Gotham Pro';
+  font-size: 36px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
 
+.logo {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+  .latest__img-title {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    min-width: 100%;
+  }
 
-  .footer__text-catalog,
-  .footer__text-partnership,
-  .footer__text-aboutus,
-  .footer__text-inn,
-  .footer__text-request,
-  .footer__text-button2,
+  .footer__catalog,
+  .footer__partnership,
+  .footer__aboutus,
+  .footer__inn,
+  .footer__request,
+  .footer__button2,
   .footer__links,
-  .footer__text-rs {
+  .footer__rs {
     width: 25%;
     min-width: 300px;
   }
 
-  .footer__text-inn {
+  .button1 {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    width: 80%;
+    height: 76px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .button2 {
+    background: linear-gradient(to bottom, #E08E44, #77461A);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 76px;
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .footer__inn {
     color: #FFFFFF;
   }
 
-  .footer__text-phone {
+  .footer__phone {
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
   }
-
-  .footer__links {
-    padding-top: 5%;
-    padding-left: 5%;
-    min-width: 300px;
-  }
-
 
   .color {
     font-family: Gotham Pro;
@@ -327,14 +323,109 @@
     justify-content: space-evenly;
     flex-grow: 1;
     width: 50%;
-    top: 70px;
+    top: 5%;
     color: #FFFFFF;
   }
+  .text {
+    padding-top: 5px;
+  }
+  .header__text-aboutus,
+  .header__text-contacts,
+  .header__text-catalog,
+  .header__text-partnership {
+    padding-inline: 20px;
+    min-width: 100%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .catalog {
+    justify-content: center;
+    width: 100%;
+  }
+.header__logo {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+}
+.header__basket {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
 
+.header__four {
+  position: absolute;
+  right: 11%;
+  top: 4%;
+  color: white;
+  font-size: 10px;
+}
+
+.header__ellipse2 {
+  position: absolute;
+  right: 10%;
+  top: 4%;
+}
   .header__iphone {
     display: none;
   }
+  .ellipse {
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .polygon {
+    position: absolute;
+    left: 12%;
+    top: 80%;
+    width: 20px;
+    height: 20px;
+  }
+  .latest {
+    font-family: Gotham Pro;
+    font-size: 64px;
+    line-height: 61px;
+  }
+  
+.latest {
+  background-color: #141313;
+  height: 160vh;
+  color: #FFFFFF;
+  min-width: 100%;
+}
+  .latest__img-title {
+    position: absolute;
+    font-size: 30px;
+    left: 10%;
+    top: 40%;
+    min-width: 100%;
+  }
+  
+.latest__title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30%;
+  padding-bottom: 65px;
+}
+.price {
+  font-family: Gotham Pro;
+  font-size: 20px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
 
+.logo {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
   .footer {
     display: flex;
     justify-content: center;
@@ -355,30 +446,51 @@
     padding-bottom: 5%;
   }
 
+  .button1 {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    width: 60%;
+    height: 76px;
+    cursor: pointer;
+    text-align: center;
+    
+  font-size: 20px;
+  }
   .button2 {
-    width: 25%;
-    min-width: 300px;
+    background: linear-gradient(to bottom, #E08E44, #77461A);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 76px;
+    width: 60%;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .footer__phone {
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.25);
   }
 
-  .footer__text-button2 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-  }
 
-  .footer__text-request {
+  .footer__request {
     text-align: center;
   }
 
-  .footer__text-inn {
+  .footer__inn {
     display: none;
   }
 
-  .footer__text-rs {
+  .footer__rs {
     display: none;
   }
 
-  .footer__text-phone {
+  .footer__phone {
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
   }
@@ -407,7 +519,7 @@
     display: none;
   }
 
-  .header__text-basket,
+  .header__basket,
   .header__ellipse2,
   .header__four {
     display: none;
@@ -449,7 +561,7 @@
     display: none;
   }
 
-  .footer__text-inn {
+  .footer__inn {
     display: none;
   }
 
@@ -459,24 +571,103 @@
     padding-bottom: 5%;
   }
 
-  .footer__text-button2 {
+  .footer__button2 {
     padding-bottom: 10%;
   }
 
   .button2 {
-    width: 80%;
+    width: 60%;
   }
   
-  .footer__text-rs {
+  .footer__rs {
     display: none;
   }
-
-  .footer__text-phone {
+  .button1 {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+    width: 60%;
+    height: 76px;
+    cursor: pointer;
+    text-align: center;
+    
+  font-size: 20px;
+  }
+  .button2 {
+    background: linear-gradient(to bottom, #E08E44, #77461A);
+    border-radius: 80px;
+    border-style: none;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 76px;
+    width: 60%;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .footer__phone {
     font-size: 30px;
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.25);
   }
+  .ellipse {
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    width: 20px;
+    height: 20px;
+  }
+  .latest {
+    font-family: Gotham Pro;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  .latest {
+    background-color: #141313;
+    height: 70vh;
+    color: #FFFFFF;
+    min-width: 100%;
+  }
+.latest__title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.price {
+  font-family: Gotham Pro;
+  font-size: 20px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  left: 10%;
+  top: 56%;
+}
 
+.logo {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 5rem;
+}
+  .latest__img-title {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    min-width: 100%;
+  }
+  .polygon {
+    position: absolute;
+    left: 12%;
+    top: 80%;
+    width: 10px;
+    height: 10px;
+  }
+  
 
 }
 
