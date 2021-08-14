@@ -1,0 +1,148 @@
+$blackabout: rgba(0, 0, 0, 1);
+$whiteabout: white;
+$blackbg:rgba(37, 37, 37, 1);
+$orangabout:rgb(129, 78, 33);
+$whitebg:rgba(255, 255, 255, 0.8);
+
+
+
+
+@font-face {
+    font-family: "Gotham-Pro";
+    src: url(../assets/Gotham-Pro.ttf)
+}
+
+@media all and (max-width: 700px) {
+    .tuk {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+
+    .card-link_color {
+        font-size: 10px;
+        line-height: 14px;
+
+    }
+
+    .card-title_txt {
+        font-size: 20px;
+    }
+
+    .textpro {
+        font-size: 20px;
+    }
+}
+
+.wrapper-header {
+    max-width: 100%;
+    margin: auto;
+    background-color: $blackabout;
+}
+
+.card-title_txt {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+    color: $whiteabout;
+}
+
+.card-color {
+    background-color: $blackbg;
+    height: 300px;
+    border-radius: 10px
+}
+
+
+.card-color:hover {
+    background-color: $whiteabout;
+
+}
+
+.card-bgcolor {
+    background-color: $blackabout;
+}
+
+.card-link_color {
+    color: $whitebg;
+    text-decoration-line: none
+}
+
+.textcard {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $whitebg;
+}
+
+.textcard_into {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $whitebg;
+}
+
+.text_align {
+    text-align: start;
+}
+
+.textpro {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 32px;
+    color: $whiteabout;
+}
+
+.point {
+    width: 40px;
+    height: 10px;
+}
+
+.card-link_color {
+    color: $whitebg;
+    text-decoration-line: none
+}
+
+.plus_bg {
+
+    background-color: $orangabout;
+    border-radius: 20px;
+    color: $whiteabout;
+}
+
+
+.btn-rounded_product {
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: $orangabout;
+    color: $whiteabout;
+}
+
+.btn-rounded_product1 {
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $orangabout;
+    color: $whiteabout;
+}
+
+.tabl_color {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $whitebg;
+}

@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Gotham-Pro";
+  src: url(../assets/Gotham-Pro.ttf);
+}
+
+@media all and (max-width: 700px) {
+  .tuk {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .card-link_color {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .card-title_txt {
+    font-size: 20px;
+  }
+  .textpro {
+    font-size: 20px;
+  }
+}
+
+.wrapper-header {
+  max-width: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+.card-title_txt {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 24px;
+  color: white;
+}
+
+.card-color {
+  background-color: #252525;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card-color:hover {
+  background-color: white;
+}
+
+.card-bgcolor {
+  background-color: black;
+}
+
+.card-link_color {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.textcard {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textcard_into {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.text_align {
+  text-align: start;
+}
+
+.textpro {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 32px;
+  color: white;
+}
+
+.point {
+  width: 40px;
+  height: 10px;
+}
+
+.card-link_color {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.plus_bg {
+  background-color: #814e21;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-rounded_product {
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #814e21;
+  color: white;
+}
+
+.btn-rounded_product1 {
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #814e21;
+  color: white;
+}
+
+.tabl_color {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*# sourceMappingURL=style.css.map */
