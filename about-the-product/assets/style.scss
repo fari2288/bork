@@ -14,9 +14,18 @@ $whitebg:rgba(255, 255, 255, 0.8);
 
 @media all and (max-width: 700px) {
     .tuk {
-        margin-left: -50px;
-        margin-right: -50px;
+        margin-left: -60px;
+        margin-right: -60px;
     }
+
+    .tuki {
+        margin-left: -40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+
+
+
 
     .card-link_color {
         font-size: 10px;
@@ -29,7 +38,7 @@ $whitebg:rgba(255, 255, 255, 0.8);
     }
 
     .textpro {
-        font-size: 20px;
+        font-size: 10px;
     }
 }
 
