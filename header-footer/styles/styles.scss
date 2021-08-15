@@ -3,7 +3,7 @@
 $white: #FFFFFF;
 $grey: rgba(255, 255, 255, 0.4);
 $grey-lighten: rgba(255, 255, 255, 0.1);
-$dark: #141313;
+$latest-bg-color: #141313;
 $footer-bg-color: #252525;
 $dark-grey: rgba(0, 0, 0, 0.25);
 $hover: rgba(36, 34, 34, 0.5);
@@ -155,7 +155,7 @@ $hover: rgba(36, 34, 34, 0.5);
     padding-left: 20px;
 }
 .latest {
-    background-color: $dark;
+    background-color: $latest-bg-color;
     height: 1500px;
     width: 100%;
     color: $white;
