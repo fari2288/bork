@@ -3,18 +3,18 @@
     font-family: 'GothamPro';
     font-style: normal;
     font-weight: normal;
-    src: url('assets/Fonts_GothamPro/GothamPro.woff2') format('woff2'),
-        url('assets/Fonts_GothamPro/GothamPro.woff') format('woff'),
-        url('assets/Fonts_GothamPro/GothamPro.ttf') format('ttf');
+    src: url('../Fonts_Gotham\ Pro/GothamPro.woff2') format('woff2'),
+        url('../Fonts_Gotham\ Pro/GothamPro.woff') format('woff'),
+        url('../Fonts_Gotham\ Pro/GothamPro.ttf') format('ttf');
 }
 /* Medium */
 @font-face {
     font-family: 'GothamPro-Medium';
     font-style: normal;
     font-weight: 500;
-    src: url('assets/Fonts_GothamPro/GothamPro-Medium.woff2') format('woff2'),
-        url('assets/Fonts_GothamPro/GothamPro-Medium.woff') format('woff'),
-        url('assets/Fonts_GothamPro/GothamPro-Medium.ttf') format('ttf');
+    src: url('../Fonts_Gotham\ Pro/GothamPro-Medium.woff2') format('woff2'),
+        url('../Fonts_Gotham\ Pro/GothamPro-Medium.woff') format('woff'),
+        url('../Fonts_Gotham\ Pro/GothamPro-Medium.ttf') format('ttf');
 }
 /* Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
