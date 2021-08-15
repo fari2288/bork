@@ -74,7 +74,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__title p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -83,7 +83,7 @@
     margin: 100px 0px 0px 120px;
   }
   .modal-page__wrapper .modal-page .modal-page__subtitle p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -117,9 +117,15 @@
     -webkit-box-shadow: #787878 0 0 0.375rem;
             box-shadow: #787878 0 0 0.375rem;
   }
+  .modal-page__wrapper .modal-page .modal-page__input-name:focus {
+    color: #FFFFFF;
+  }
   .modal-page__wrapper .modal-page .modal-page__input-phone:hover {
     -webkit-box-shadow: #787878 0 0 0.375rem;
             box-shadow: #787878 0 0 0.375rem;
+  }
+  .modal-page__wrapper .modal-page .modal-page__input-phone:focus {
+    color: #FFFFFF;
   }
   .modal-page__wrapper .modal-page .submit:hover {
     -webkit-box-shadow: #787878 0 0 0.375rem;
@@ -133,7 +139,7 @@
     border-radius: 80px;
     border: none;
     margin: 20px 0px 0px 120px;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -177,7 +183,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__submit p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -261,7 +267,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__title p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -271,7 +277,7 @@
     text-align: left;
   }
   .modal-page__wrapper .modal-page .modal-page__subtitle p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
@@ -321,7 +327,7 @@
     border-radius: 80px;
     border: none;
     margin: 20px 0px 0px 80px;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-size: 1rem;
     line-height: 29px;
@@ -364,7 +370,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__submit p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -466,7 +472,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__title p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -475,7 +481,7 @@
     text-align: center;
   }
   .modal-page__wrapper .modal-page .modal-page__subtitle p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
@@ -510,7 +516,7 @@
     background: linear-gradient(180deg, #D1843E 0%, #77461A 100%);
     border-radius: 80px;
     border: none;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-size: 1rem;
     line-height: 29px;
@@ -552,7 +558,7 @@
             align-items: center;
   }
   .modal-page__wrapper .modal-page .modal-page__submit p {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 0.7rem;

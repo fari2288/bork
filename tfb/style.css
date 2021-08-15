@@ -50,7 +50,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -65,7 +65,7 @@
     margin: 20px 0px 0px 20px;
   }
   .tfb__subtitle {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -74,7 +74,7 @@
     margin: 30px 0px 0px 153px;
   }
   .tfb__text {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -179,7 +179,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 2rem;
@@ -194,7 +194,7 @@
     margin: 20px 0px 0px 20px;
   }
   .tfb__subtitle {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6rem;
@@ -203,7 +203,7 @@
     margin: 30px 0px 0px 100px;
   }
   .tfb__text {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6rem;
@@ -317,7 +317,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -332,7 +332,7 @@
     margin: 20px 0px 0px 20px;
   }
   .tfb__subtitle {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
@@ -341,7 +341,7 @@
     margin: 30px 0px 0px 30px;
   }
   .tfb__text {
-    font-family: "Gotham Pro", serif;
+    font-family: "Gotham Pro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
