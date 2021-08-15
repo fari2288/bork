@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bork</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="../assets/fonts.css">
+    <link rel="stylesheet" href="../cart/style.css">
+</head>
+<body>
+    <div class="cart__wrapper">
+        <div class="cart">
+            <div class="cart__application">
+                <p>Оформите заявку</p>
+                <div class="cart__application-input">
+                    <form action="submit"><input class="cart__application-input-name" placeholder="Ваше имя:"></form>
+                </div>
+                <div class="cart__application-input">
+                    <form action="submit"><input class="cart__application-input-phone" placeholder="+ 7 (---) --- -- --"></form>
+                </div>
+                <div class="cart__application-input">
+                    <form action="submit"><input class="cart__application-input-email" placeholder="Email:"></form>
+                </div>
+                <div class="cart__application-input">
+                    <form action="submit"><input class="cart__application-input-address" placeholder="Адрес доставки:"></form>
+                </div>
+                <div class="cart__application-payment">
+                    <div class="cart__application-payment-title">Выберите способ оплаты:</div>
+                    <form>               
+                        <input id="cash" type="radio" name="payment">
+                        <label for="cash">Наличными</label>                         
+                        <input id="Apple" type="radio" name="payment" checked>
+                        <label for="Apple">Apple Pay</label>
+                        <input id="card" type="radio" name="payment">
+                        <label for="card">Картой при получении</label>
+                    </form>
+                </div>
+                <div class="cart__application-input">
+                    <form action="submit"><input class="cart__application-input-promocode" placeholder="ПРОМОКОД"></form>
+                </div>
+                <div class="cart__application__btn">
+                    <input class="submit" type="submit" value="ОФОРМИТЬ">
+                </div>
+            </div>
+
+            <div class="cart__order">
+                <div class="cart__order-title">Ваша корзина</div>
+                <div class="cart__order-border">
+                    <div class="cart__order-item1">
+                        <div class="cart__order-description">
+                            <div class="cart__order-description-title">Массажер для глаз</div>
+                            <div class="cart__order-description-input">
+                                <form>кол-во:<input class="cart__order-description-input-amount" placeholder="3"></form>
+                            </div>
+                            <div class="cart__order-description-price">22. 000 ₽</div>
+                        </div>
+                        <div class="cart__order-img massager-for-eyes"></div>
+                    </div>
+                    <div class="cart__order-item2">
+                        <div class="cart__order-description">
+                            <div class="cart__order-description-title">Плед от BORK</div>
+                            <div class="cart__order-description-input">
+                                <form>кол-во:<input class="cart__order-description-input-amount" placeholder="2"></form>
+                            </div>
+                            <div class="cart__order-description-price">17. 000 ₽</div>
+                        </div>
+                        <div class="cart__order-img plaid"></div>
+                    </div>
+                    <div class="cart__order-item3">
+                        <div class="cart__order-description">
+                            <div class="cart__order-description-title">Чайник от BORK</div>
+                            <div class="cart__order-description-input">
+                                <form>кол-во:<input class="cart__order-description-input-amount" placeholder="5"></form>
+                            </div>
+                            <div class="cart__order-description-price">15. 000 ₽</div>
+                        </div>
+                        <div class="cart__order-img teapot"></div>
+                    </div>
+                    <div class="cart__order-item4">
+                        <div class="cart__order-description">
+                            <div class="cart__order-description-title">Массажер для шеи</div>
+                            <div class="cart__order-description-input">
+                                <form>кол-во:<input class="cart__order-description-input-amount" placeholder="1"></form>
+                            </div>
+                            <div class="cart__order-description-price">12. 000 ₽</div>
+                        </div>
+                        <div class="cart__order-img massager-for-neck"></div>
+                    </div>
+                    <div class="cart__order-total">
+                        <div class="cart__order-total-text">Итого:</div>
+                        <div class="cart__order-total-sum">63. 000 ₽</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
