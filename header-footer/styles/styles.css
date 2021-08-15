@@ -23,10 +23,10 @@
   width: 100%;
 }
 
+
 .catalog {
   display: flex;
 }
-
 .button {
   border: none;
   background-color: transparent;
@@ -155,21 +155,27 @@
     position: absolute;
     right: 10%;
     top: 8%;
+    width: 40px;
+    height: 40px;
   }
-
+.basket {
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+.header__ellipse2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   .header__four {
     position: absolute;
-    right: 10%;
-    top: 7%;
+    right: 3px;
+    top: 0;
     color: white;
     font-size: 10px;
   }
 
-  .header__ellipse2 {
-    position: absolute;
-    right: 10%;
-    top: 7%;
-  }
 
   .header__text-aboutus,
   .header__text-contacts,
@@ -362,24 +368,30 @@
     top: 5%;
   }
 
+  
   .header__basket {
     position: absolute;
     right: 10%;
-    top: 5%;
+    top: 8%;
+    width: 40px;
+    height: 40px;
   }
-
+.basket {
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+.header__ellipse2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
   .header__four {
     position: absolute;
-    right: 11%;
-    top: 4%;
+    right: 3px;
+    top: 0;
     color: white;
     font-size: 10px;
-  }
-
-  .header__ellipse2 {
-    position: absolute;
-    right: 10%;
-    top: 4%;
   }
 
   .header__iphone {
