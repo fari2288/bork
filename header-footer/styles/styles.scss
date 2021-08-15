@@ -5,7 +5,7 @@ $grey: rgba(255, 255, 255, 0.4);
 $grey-lighten: rgba(255, 255, 255, 0.1);
 $latest-bg-color: #141313;
 $footer-bg-color: #252525;
-$dark-grey: rgba(0, 0, 0, 0.25);
+$btn1-bg-color: rgba(0, 0, 0, 0.25);
 $hover: rgba(36, 34, 34, 0.5);
 
 .footer {
@@ -53,7 +53,7 @@ $hover: rgba(36, 34, 34, 0.5);
 .footer__text-phone {
     font-size: 30px;
     padding-top: 20px;
-    color: $dark-grey;
+    color: $btn1-bg-color;
 }
 
 .footer__text-aboutus {
@@ -65,10 +65,10 @@ $hover: rgba(36, 34, 34, 0.5);
 }
 
 .button1 {
-    background-color: $dark-grey;
+    background-color: $btn1-bg-color;
     border-radius: 80px;
     border-style: none;
-    box-shadow: inset 15px 15px 15px $dark-grey, 3px 3px 12px $grey-lighten;
+    box-shadow: inset 15px 15px 15px $btn1-bg-color, 3px 3px 12px $grey-lighten;
     width: 331px;
     height: 76px;
     cursor: pointer;
@@ -83,7 +83,7 @@ $hover: rgba(36, 34, 34, 0.5);
     background-color: linear-gradient(to bottom, #E08E44 0%, #77461A 100%);
     border-radius: 80px;
     border-style: none;
-    box-shadow: 0 4px 4px $dark-grey;
+    box-shadow: 0 4px 4px $btn1-bg-color;
     width: 235px;
     height: 76px;
     color: $white;
@@ -227,7 +227,7 @@ $hover: rgba(36, 34, 34, 0.5);
     font-size: 20px;
     line-height: 19px;
     color: $white;
-    text-shadow: 0px 4px 4px $dark-grey;
+    text-shadow: 0px 4px 4px $btn1-bg-color;
 }
 
 .latest {
