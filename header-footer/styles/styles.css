@@ -1567,7 +1567,7 @@
 }
 
 .button1:hover {
-  background-color: #252525;
+  box-shadow: #787878 0 0 0.375rem;
 }
 
 .footer__button2 {
@@ -1575,7 +1575,7 @@
 }
 
 .button2:hover {
-  background: linear-gradient(to bottom, #dda06b 0%, #8d6039 100%);
+  box-shadow: #787878 0 0 0.375rem;
 }
 
 .price {
