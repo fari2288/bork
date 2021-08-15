@@ -1,0 +1,113 @@
+$blackcatalog: rgba(0, 0, 0, 1);
+$whitecatalog: white;
+$blackcatalogbg:rgba(37, 37, 37, 1);
+$orangcatalog:rgb(129, 78, 33);
+$whitecatalogbg:rgba(255, 255, 255, 0.8);
+
+
+
+
+@media screen and (max-width: 900px) {
+    button.btn-rounded {
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .tuk {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+
+    .card-link_color {
+        font-size: 10px;
+        line-height: 14px;
+
+    }
+}
+
+@font-face {
+    font-family: "Gotham-Pro";
+    src: url(../assets/Gotham-Pro.ttf)
+}
+
+.wrapper-header {
+    max-width: 100%;
+    margin: auto;
+    background-color: $blackcatalog;
+}
+
+.textpro {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 62px;
+    color: $whitecatalog;
+}
+
+.textcard {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $whitecatalogbg;
+}
+
+.textcard_into {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $whitecatalogbg;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 150px;
+    background-color: $blackcatalogbg;
+    color: $whitecatalog;
+}
+
+.plus_bg {
+
+    background-color: $orangcatalog;
+    border-radius: 20px;
+    color: $whitecatalog;
+}
+
+.card-color {
+    background-color: $blackcatalogbg;
+    height: 300px;
+    border-radius: 10px
+}
+
+
+.card-color:hover {
+    background-color: $whitecatalog;
+
+}
+
+.card-bgcolor {
+    background-color: $blackcatalog;
+}
+
+.text_align {
+    text-align: start;
+}
+
+.point {
+    width: 40px;
+    height: 10px;
+}
+
+.card-link_color {
+    color: $whitecatalogbg;
+    text-decoration-line: none
+}

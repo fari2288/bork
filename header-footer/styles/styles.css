@@ -1,26 +1,37 @@
-.header {
-  display: flex;
-  justify-content: center;
-}
-
-.header__text {
-  font-family: 'Gotham Pro';
-  font-size: 20px;
-  line-height: 19px;
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  background-color: #252525;
   color: #FFFFFF;
-}
-
-.header__text-aboutus:hover,
-.header__text-contacts:hover,
-.header__text-partnership:hover,
-.text:hover,
-.dropdown-item:hover {
-  cursor: pointer;
-  text-shadow: 0 0 5px #FFFFFF;
-}
-
-.img {
+  height: 794px;
   width: 100%;
+}
+
+.footer__logo {
+  padding-left: 149px;
+  padding-top: 132px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: 1/1/2/5;
+}
+
+.footer__text-inn {
+  color: #FFFFFF;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.footer__text-catalog,
+.footer__text-partnership,
+.footer__text-aboutus {
+  padding-top: 100px;
+  line-height: 19px;
 }
 
 
@@ -32,84 +43,199 @@
   background-color: transparent;
 }
 
+.footer__text-request,
+.footer__text-catalog {
+  padding-left: 30px;
+}
 
-.footer {
-  font-family: Gotham Pro;
+.footer__text-partnership {
+  padding-left: 60px;
+}
+
+.footer__text-rs {
+  padding-left: 149px;
+}
+
+.footer__text-phone {
   font-size: 30px;
-  line-height: 29px;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.footer__text-aboutus {
+  padding-left: 70px;
+}
+
+.footer__links {
+  padding-top: 70px;
+}
+
+.button1 {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 80px;
+  border-style: none;
+  -webkit-box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+          box-shadow: inset 15px 15px 15px rgba(0, 0, 0, 0.25), 3px 3px 12px rgba(255, 255, 255, 0.1);
+  width: 331px;
+  height: 76px;
+  cursor: pointer;
+  text-align: center;
 }
 
 .button1:hover {
   background-color: #252525;
 }
 
-.footer__button2 {
-  padding-top: 50px;
+.button2 {
+  background-color: linear-gradient(to bottom, #E08E44 0%, #77461A 100%);
+  border-radius: 80px;
+  border-style: none;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 235px;
+  height: 76px;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.footer__text-button2 {
+  padding-top: 48px;
+  padding-left: 30px;
 }
 
 .button2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dda06b), to(#8d6039));
   background: linear-gradient(to bottom, #dda06b 0%, #8d6039 100%);
 }
 
+.footer__links-instagram,
+.footer__links-youtube,
+.footer__links-vk {
+  padding-left: 50px;
+}
+
+.color {
+  font-family: 'Gotham Pro';
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+}
+
 .price {
-  font-family: Gotham Pro;
+  font-family: 'Gotham Pro';
   font-size: 36px;
   line-height: 34px;
   color: rgba(255, 255, 255, 0.4);
+}
+
+.header__text {
   position: absolute;
-  left: 10%;
-  top: 60%;
-}
-
-.latest__video-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   position: absolute;
-  top: 0;
-  left: 0;
+  padding-top: 70px;
+  padding-left: 58px;
+  color: #FFFFFF;
+}
+
+.header__four,
+.header__ellipse2 {
+  position: absolute;
+}
+
+.header__four {
+  position: absolute;
+  padding-top: 53px;
+  padding-left: 1504px;
+  color: #FFFFFF;
+}
+
+.header__ellipse2 {
+  position: absolute;
+  padding-left: 1500px;
+  padding-top: 70px;
+}
+
+.vector {
+  padding-left: 20px;
+}
+
+.latest {
+  background-color: #141313;
+  height: 1500px;
   width: 100%;
-  height: 100%;
+  color: #FFFFFF;
 }
 
-.latest__video-overlay {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
+.latest__title {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 64px;
+  padding-top: 164px;
+  padding-bottom: 65px;
 }
 
-.latest__video-overlay:hover {
-  z-index: -1;
+.latest__img-logo {
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 148px;
 }
 
-.latest__video {
-  position: relative;
-  left: 10%;
-  width: 80%;
-  min-width: 80%;
-  box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.5);
+.latest__img-title {
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 318px;
+  font-size: 64px;
+}
+
+.latest__img-price {
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 427px;
+  font-size: 36px;
+}
+
+.latest__img {
+  position: absolute;
 }
 
 .toster {
+  width: 80vw;
+  padding-left: 152px;
+  padding-top: 65px;
+}
+
+.latest__img-ellipse {
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 600px;
+  cursor: pointer;
+}
+
+.latest__img-polygon {
+  position: absolute;
+  padding-left: 290px;
+  padding-top: 616px;
+  cursor: pointer;
+}
+
+.latest__video {
+  position: absolute;
+  padding-left: 152px;
+  padding-top: 65px;
   width: 100%;
-  height: 100%;
-  min-width: 100%;
-}
-
-.toster:hover {
-  display: none;
+  height: 810px;
   z-index: -1;
-}
-
-.footer__inn .hover:hover,
-.footer__catalog .hover:hover,
-.footer__partnership .hover:hover,
-.footer__aboutus .hover:hover {
-  text-shadow: 0 0 3px #FFFFFF;
-}
-
-.color__item:hover {
-  color: white;
 }
 
 .footer__links {
@@ -716,3 +842,17 @@
 }
 
 /*# sourceMappingURL=styles.css.map *
+.header__text {
+  font-family: Gotham Pro;
+  font-size: 20px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.latest {
+  font-family: Gotham Pro;
+  font-size: 64px;
+  line-height: 61px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,8 @@
 }
 
 $default-font: 'Gotham Pro',
-serif;
+'Montserrat',
+sans-serif;
 $main-bg-color: #252525;
 $main-text-color:#FFFFFF;
 $lightning: #787878 0 0 0.375rem;
@@ -106,8 +107,16 @@ $lightning: #787878 0 0 0.375rem;
                 box-shadow: $lightning
             }
 
+            .modal-page__input-name:focus {
+                color: $main-text-color
+            }
+
             .modal-page__input-phone:hover {
                 box-shadow: $lightning
+            }
+
+            .modal-page__input-phone:focus {
+                color: $main-text-color
             }
 
             .submit:hover {

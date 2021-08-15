@@ -1,0 +1,101 @@
+@media screen and (max-width: 900px) {
+  button.btn-rounded {
+    padding-left: 10px;
+    padding-right: 30px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .tuk {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .card-link_color {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+@font-face {
+  font-family: "Gotham-Pro";
+  src: url(../assets/Gotham-Pro.ttf);
+}
+
+.wrapper-header {
+  max-width: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+.textpro {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 62px;
+  color: white;
+}
+
+.textcard {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textcard_into {
+  font-family: "Gotham-Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-rounded {
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 150px;
+  background-color: #252525;
+  color: white;
+}
+
+.plus_bg {
+  background-color: #814e21;
+  border-radius: 20px;
+  color: white;
+}
+
+.card-color {
+  background-color: #252525;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.card-color:hover {
+  background-color: white;
+}
+
+.card-bgcolor {
+  background-color: black;
+}
+
+.text_align {
+  text-align: start;
+}
+
+.point {
+  width: 40px;
+  height: 10px;
+}
+
+.card-link_color {
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+/*# sourceMappingURL=style.css.map */
