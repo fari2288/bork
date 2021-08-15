@@ -1,7 +1,7 @@
 
 
 $white: #FFFFFF;
-$grey: rgba(255, 255, 255, 0.4);
+$text-color: rgba(255, 255, 255, 0.4);
 $grey-lighten: rgba(255, 255, 255, 0.1);
 $latest-bg-color: #141313;
 $footer-bg-color: #252525;
@@ -110,7 +110,7 @@ $hover: rgba(36, 34, 34, 0.5);
     font-family: 'Gotham Pro';
     font-size: 20px;
     line-height: 40px;
-    color: $grey;
+    color: $text-color;
     font-size: 20px;
 }
 
@@ -118,7 +118,7 @@ $hover: rgba(36, 34, 34, 0.5);
     font-family: 'Gotham Pro';
     font-size: 36px;
     line-height: 34px;
-    color: $grey;
+    color: $text-color;
 }
 .header__text {
     position: absolute;
