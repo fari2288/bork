@@ -1,4 +1,4 @@
-$blackcatalog: rgba(0, 0, 0, 0.5);
+$blackcatalog: rgba(0, 0, 0, 1);
 $blackcatalogbg:rgba(37, 37, 37, 1);
 $orangcatalog:rgb(129, 78, 33);
 $whitecatalogbg:rgba(255, 255, 255, 0.7);
@@ -50,7 +50,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .textpro {
-    font-family: "Gotham-Pro";
+    font-family: $default-font;
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
@@ -59,7 +59,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .textcard {
-    font-family: "Gotham-Pro";
+    font-family: $default-font;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -68,7 +68,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .textcard_into {
-    font-family: "Gotham-Pro";
+    font-family: $default-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -95,7 +95,8 @@ $lightning: #787878 0 0 0.375rem;
 
 .card-color {
     background-color: $blackcatalogbg;
-    border-radius: 10px
+    border-radius: 10px;
+    height: 200px;
 }
 
 
