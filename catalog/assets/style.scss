@@ -1,9 +1,23 @@
-$blackcatalog: rgba(0, 0, 0, 1);
-$whitecatalog: white;
+$blackcatalog: rgba(0, 0, 0, 0.5);
 $blackcatalogbg:rgba(37, 37, 37, 1);
 $orangcatalog:rgb(129, 78, 33);
-$whitecatalogbg:rgba(255, 255, 255, 0.8);
+$whitecatalogbg:rgba(255, 255, 255, 0.7);
 
+@font-face {
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts_Gotham\ Pro/GothamPro.woff2') format('woff2'),
+        url('../Fonts_Gotham\ Pro/GothamPro.woff') format('woff'),
+        url('../Fonts_Gotham\ Pro/GothamPro.ttf') format('ttf');
+}
+
+$default-font: 'GothamPro',
+'Montserrat',
+sans-serif;
+$main-bg-color: #252525;
+$main-text-color:#FFFFFF;
+$lightning: #787878 0 0 0.375rem;
 
 
 
@@ -27,10 +41,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
     }
 }
 
-@font-face {
-    font-family: "Gotham-Pro";
-    src: url(../assets/Gotham-Pro.ttf)
-}
+
 
 .wrapper-header {
     max-width: 100%;
@@ -44,7 +55,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
     font-weight: 400;
     font-size: 64px;
     line-height: 62px;
-    color: $whitecatalog;
+    color: $main-text-color;
 }
 
 .textcard {
@@ -53,7 +64,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    color: $whitecatalogbg;
+    color: $main-text-color;
 }
 
 .textcard_into {
@@ -62,7 +73,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: $whitecatalogbg;
+    color: $main-text-color;
 }
 
 .btn-rounded {
@@ -72,14 +83,14 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
     padding-left: 50px;
     padding-right: 150px;
     background-color: $blackcatalogbg;
-    color: $whitecatalog;
+    color: $main-text-color;
 }
 
 .plus_bg {
 
     background-color: $orangcatalog;
     border-radius: 20px;
-    color: $whitecatalog;
+    color: $main-text-color;
 }
 
 .card-color {
@@ -89,7 +100,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.8);
 
 
 .card-color:hover {
-    background-color: $whitecatalog;
+    background-color: $main-text-color;
 
 }
 
