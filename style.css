@@ -7,6 +7,11 @@
 }
 
 /*блок карусель начало*/
+.LP__about-us {
+  width: 100%;
+  height: 680px;
+}
+
 .container-fluid {
   width: 100%;
   height: 680px;
