@@ -828,12 +828,16 @@
   height: 100%;
   min-width: 100%;
 }
-
+.latest {
+  padding-top: 100px;
+  margin-top: 200px;
+}
 .latest__video-overlay:hover {
   z-index: -1;
 }
 
 .latest__video {
+  margin-top: 50px;
   position: relative;
   left: 10%;
   width: 80%;
