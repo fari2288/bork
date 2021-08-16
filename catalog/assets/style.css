@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'GothamPro';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
+}
+
 @media screen and (max-width: 900px) {
   button.btn-rounded {
     padding-left: 10px;
@@ -16,15 +23,10 @@
   }
 }
 
-@font-face {
-  font-family: "Gotham-Pro";
-  src: url(../assets/Gotham-Pro.ttf);
-}
-
 .wrapper-header {
   max-width: 100%;
   margin: auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .textpro {
@@ -33,7 +35,7 @@
   font-weight: 400;
   font-size: 64px;
   line-height: 62px;
-  color: white;
+  color: #FFFFFF;
 }
 
 .textcard {
@@ -42,7 +44,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FFFFFF;
 }
 
 .textcard_into {
@@ -51,7 +53,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #FFFFFF;
 }
 
 .btn-rounded {
@@ -61,13 +63,13 @@
   padding-left: 50px;
   padding-right: 150px;
   background-color: #252525;
-  color: white;
+  color: #FFFFFF;
 }
 
 .plus_bg {
   background-color: #814e21;
   border-radius: 20px;
-  color: white;
+  color: #FFFFFF;
 }
 
 .card-color {
@@ -76,11 +78,11 @@
 }
 
 .card-color:hover {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .card-bgcolor {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .text_align {
@@ -93,7 +95,7 @@
 }
 
 .card-link_color {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
