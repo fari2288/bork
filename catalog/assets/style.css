@@ -26,11 +26,11 @@
 .wrapper-header {
   max-width: 100%;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
 }
 
 .textpro {
-  font-family: "Gotham-Pro";
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -39,7 +39,7 @@
 }
 
 .textcard {
-  font-family: "Gotham-Pro";
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -48,7 +48,7 @@
 }
 
 .textcard_into {
-  font-family: "Gotham-Pro";
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -75,6 +75,7 @@
 .card-color {
   background-color: #252525;
   border-radius: 10px;
+  height: 200px;
 }
 
 .card-color:hover {
@@ -82,7 +83,7 @@
 }
 
 .card-bgcolor {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
 }
 
 .text_align {
