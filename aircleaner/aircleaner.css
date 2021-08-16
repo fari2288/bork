@@ -1,32 +1,66 @@
 .new-items {
-    display: grid; 
-    grid-template-columns: 0.23fr 1.1fr 1.67fr;
-    grid-template-rows: 1.25fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    height: 1056px;
-    background-image: url('../assets/aircleaner_img/mojki-vozduha.jpg');
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.23fr 1.1fr 1.67fr;
+      grid-template-columns: 0.23fr 1.1fr 1.67fr;
+  -ms-grid-rows: 1.25fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1.25fr 1fr 1fr 1fr 1fr;
+  background-image: url("../assets/aircleaner_img/mojki-vozduha.jpg");
+  width: 100%;
+  height: 1056px;
 }
+
 .new-items__title {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    justify-content: space-around;
-    align-content: end;
-    font-family: 'GothamPro', 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 61px;
-    color: #FFFFFF;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: end;
+      align-content: end;
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 61px;
+  color: #FFFFFF;
 }
+
 .new-items__text {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    justify-content: space-around;
-    align-content: space-around;
-    font-family: 'GothamPro', 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 43px;
-    color: rgba(255, 255, 255, 0.6);
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 43px;
+  color: rgba(255, 255, 255, 0.6);
 }
+
+.new-items__btn-orange {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  font-family: 'GothamPro-Medium', 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 19px;
+}
+/*# sourceMappingURL=aircleaner.css.map */
