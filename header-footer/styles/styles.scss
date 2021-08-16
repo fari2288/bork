@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts_Gotham\ Pro/GothamPro.woff2') format('woff2'),
+        url('../Fonts_Gotham\ Pro/GothamPro.woff') format('woff'),
+        url('../Fonts_Gotham\ Pro/GothamPro.ttf') format('ttf');
+}
+
 $white: #FFFFFF;
 $text-color: rgba(255, 255, 255, 0.4);
 $btn-bg2-color: rgba(255, 255, 255, 0.1);
@@ -5,6 +14,9 @@ $latest-bg-color: #141313;
 $footer-bg-color: #252525;
 $btn-bg1-color: rgba(0, 0, 0, 0.25);
 $lightning: #787878 0 0 0.375rem;
+$default-font: 'GothamPro',
+'Montserrat',
+sans-serif;
 
 .footer {
     display: grid;
@@ -105,7 +117,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .color {
-    font-family: 'Gotham Pro';
+    font-family: $default-font;
     font-size: 20px;
     line-height: 40px;
     color: $text-color;
@@ -113,11 +125,12 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .price {
-    font-family: 'Gotham Pro';
+    font-family: $default-font;
     font-size: 36px;
     line-height: 34px;
     color: $text-color;
 }
+
 .header__text {
     position: absolute;
     display: flex;
@@ -152,6 +165,7 @@ $lightning: #787878 0 0 0.375rem;
 .vector {
     padding-left: 20px;
 }
+
 .latest {
     background-color: $latest-bg-color;
     height: 1500px;
@@ -221,7 +235,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .header__text {
-    font-family: Gotham Pro;
+    font-family: $default-font;
     font-size: 20px;
     line-height: 19px;
     color: $white;
@@ -229,7 +243,7 @@ $lightning: #787878 0 0 0.375rem;
 }
 
 .latest {
-    font-family: Gotham Pro;
+    font-family: $default-font;
     font-size: 64px;
     line-height: 61px;
 }

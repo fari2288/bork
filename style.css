@@ -1,36 +1,127 @@
-.container-fluid {
-    width: 100%;
-    height: 680px;
-    max-width: 100%;
-    background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
-    background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 1) 82.29%);
+@charset "UTF-8";
+@font-face {
+  font-family: 'GothamPro';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
 
+/*блок карусель начало*/
+.LP__about-us {
+  width: 100%;
+  height: 680px;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 680px;
+  max-width: 100%;
+  background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, rgba(37, 37, 37, 0)));
+  background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, #252525));
+  background: linear-gradient(270deg, #252525 23.57%, #252525 82.29%);
+}
 
 .carousel-item {
-    width: 100%;
-    height: 680px;
+  width: 100%;
+  height: 680px;
 }
 
 .LP__about_text-title {
-    font-family: 'Gotham Pro', 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-bottom: 40px;
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
 }
 
 .LP__about_text-text {
-    font-family: 'Gotham Pro', 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    color: rgba(255, 255, 255, 0.6);
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .LP__about_text-item1 {
-    text-align: left;
+  text-align: left;
 }
+
+/*блок карусель конец*/
+/*псевдокарусель начало*/
+.LP__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 1029px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, rgba(37, 37, 37, 0)));
+  background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, #252525));
+  background: linear-gradient(270deg, #252525 23.57%, #252525 82.29%);
+}
+
+.LP__about_text {
+  width: 50%;
+  margin: 100px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 160px 150px 0px 100px;
+}
+
+.LP__about_text-title {
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.LP__about_text-text {
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.LP__about-nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.LP__about-img {
+  height: 1029px;
+  width: 50%;
+  background: url(/bork/assets/LP/about-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*псевдокарусель конец*/
+/*# sourceMappingURL=style.css.map */

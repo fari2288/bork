@@ -834,6 +834,7 @@
 }
 
 .latest__video {
+  margin-top: 50px;
   position: relative;
   left: 10%;
   width: 80%;
