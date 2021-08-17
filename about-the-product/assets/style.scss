@@ -155,3 +155,265 @@ $whitebg:rgba(255, 255, 255, 0.8);
     line-height: 24px;
     color: $whitebg;
 }
+
+
+
+/*шапка*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.header__text {
+    font-family: 'Gotham Pro';
+    font-size: 20px;
+    line-height: 19px;
+    color: $whitebg;
+
+}
+
+.header__text-aboutus:hover,
+.header__text-contacts:hover,
+.header__text-partnership:hover,
+.text:hover,
+.dropdown-item:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px $whitebg;
+}
+
+.catalog {
+    display: flex;
+    padding-top: 3%;
+
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+}
+
+.button1:hover {
+    box-shadow: #787878 0 0 0.375rem;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .header__text {
+        /*position: absolute;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        width: 50;
+        /* width: 50%;
+      margin-bottom: 5%;
+      top: 7%;*/
+        padding-left: 200px;
+        padding-top: 50px;
+        padding-right: 200px;
+
+        color: $whitebg;
+        background-color: black;
+    }
+
+    .text {
+        padding-top: 12px;
+
+    }
+
+    .dropdown {
+        padding-top: 10px;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 4%;
+        top: 10%;
+
+    }
+
+    .header__basket {
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .basket {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__four {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        color: white;
+        font-size: 10px;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+    }
+
+    .header__text-aboutus,
+    .header__text-contacts,
+    .header__text-catalog,
+    .header__text-partnership {
+        padding-inline: 20px;
+    }
+
+
+
+    .header__iphone {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__text {
+        /* position: absolute;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        /* flex-grow: 1;
+        width: 50%;
+        top: 5%;*/
+        color: $whitebg;
+        background-color: black;
+        ;
+    }
+
+    .text {
+        padding-top: 5px;
+    }
+
+    .dropdown {
+        padding-top: 2px;
+    }
+
+    .header__text-aboutus,
+    .header__text-contacts,
+    .header__text-catalog,
+    .header__text-partnership {
+        padding-inline: 20px;
+        min-width: 100%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .catalog {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+
+    .header__basket {
+        position: absolute;
+        right: 10%;
+        top: 5%;
+        top: 8%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .basket {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__four {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        color: white;
+        font-size: 10px;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+    }
+
+
+
+    .logo {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .header__logo {
+        left: 10%;
+        top: 10%;
+    }
+
+    .header__basket,
+    .header__ellipse2,
+    .header__four {
+        display: none;
+    }
+
+    .header__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        /* flex-grow: 1;
+width: 50%;
+top: 5%;*/
+        color: $whitebg;
+        ;
+    }
+}
