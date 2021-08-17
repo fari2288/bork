@@ -18,7 +18,9 @@
   line-height: 19px;
   color: #FFFFFF;
 }
-
+.dropdown-item{
+  background-color: #141313;
+}
 .header__text-aboutus:hover,
 .header__text-contacts:hover,
 .header__text-partnership:hover,
@@ -527,15 +529,16 @@ width: 400px;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 1029px;
+  height: 100vh;
   background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, rgba(37, 37, 37, 0)));
   background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
   background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, #252525));
   background: linear-gradient(270deg, #252525 23.57%, #252525 82.29%);
+  border: yellow 1px solid;
 }
 
 .LP__about_text {
-  width: 50%;
+  width: 100%;
   margin: 100px 0px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -552,7 +555,23 @@ width: 400px;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin: 160px 150px 0px 100px;
+  margin: 5% 5%;
+  border: solid 1px yellow;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .LP__about_text-text3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .LP__about_text-text2,
+  .LP__about_text-text3 {
+    display: none;
+  }
+  .title,
+  .LP__about_text-text1 {
+    font-size: 10px;
+  }
 }
 
 .LP__about_text-title {
@@ -563,6 +582,7 @@ width: 400px;
   line-height: 60px;
   color: #FFFFFF;
   margin-bottom: 40px;
+  border: solid 1px yellow;
 }
 
 .LP__about_text-text {
@@ -572,14 +592,16 @@ width: 400px;
   font-size: 20px;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.6);
+  border: yellow 1px solid;
 }
 
 .LP__about-nav {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-style: solid 1px yellow;
 }
 
 .LP__about-img {
@@ -592,6 +614,7 @@ width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: solid 1ps red;
 }
 
 /*псевдокарусель конец*/
@@ -732,7 +755,7 @@ width: 400px;
 
   .latest {
     background-color: #141313;
-    height: 160vh;
+    height: 100vh;
     color: #FFFFFF;
     min-width: 100%;
   }
@@ -749,8 +772,8 @@ width: 400px;
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    padding-top: 30%;
-    padding-bottom: 65px;
+    padding-top: 10%;
+    padding-bottom: 5%;
   }
 
   .price {
@@ -787,7 +810,7 @@ width: 400px;
 
   .latest {
     background-color: #141313;
-    height: 70vh;
+    height: 50vh;
     color: #FFFFFF;
     min-width: 100%;
   }
