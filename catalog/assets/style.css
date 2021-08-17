@@ -75,11 +75,7 @@
 .card-color {
   background-color: #252525;
   border-radius: 10px;
-<<<<<<< HEAD
   height: 300px;
-=======
-  height: 200px;
->>>>>>> 16e2dacffc513c950e0b243a4b5b2d8a4f3e9858
 }
 
 .card-color:hover {
