@@ -441,6 +441,7 @@ width: 400px;
 @media screen and (max-width: 767px) {
   .wrapper-header {
   min-width: 400px;
+  min-width: 400px;
   margin: auto;
   background-color: black;
 }
@@ -757,14 +758,14 @@ display: none;
     font-family: Gotham Pro;
     font-size: 64px;
     line-height: 61px;
+    height: 120vh;
   }
 
   .latest__title {
     color: #FFFFFF;
     text-align: center;
     font-size: 64px;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .price {
@@ -870,7 +871,7 @@ display: none;
 
   .latest {
     background-color: #141313;
-    height: 70vh;
+    height: 60vh;
     color: #FFFFFF;
     min-width: 100%;
   }
