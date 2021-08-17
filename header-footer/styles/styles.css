@@ -767,7 +767,7 @@
     font-family: Gotham Pro;
 font-style: normal;
 font-weight: normal;
-font-size: 64px;
+font-size: 30px;
 line-height: 61px;
 width: 700px;
   }
@@ -776,9 +776,9 @@ width: 700px;
     color: white;
     top:40%;
     left: 10%;
-    width: 700px;
+    width: 500px;
     font-size: 20px;
-    line-height: 50px;
+    line-height: 20px;
     color: rgba(255, 255, 255, 0.4);
   }
   .aircleaner__buttons {
@@ -786,7 +786,7 @@ width: 700px;
     display: flex;
     justify-content: space-between;
     width: 700px;
-    top:70%;
+    top:60%;
     left: 10%;
   }
   .aircleaner__buttons-button1 {
@@ -796,10 +796,9 @@ width: 700px;
           box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   color: white;
-  height: 92px;
+  height: 80px;
   border-radius: 50px;
-  width: 320px;
-min-width: 100%;
+  width: 280px;
 }
 
 .aircleaner__buttons-button2 {
@@ -807,10 +806,9 @@ min-width: 100%;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 92px;
+  height: 80px;
   border-radius: 50px;
-  width: 320px;
-  min-width: 100%;
+  width: 280px;
 }
 }
 
@@ -824,24 +822,26 @@ min-width: 100%;
     font-family: Gotham Pro;
 font-style: normal;
 font-weight: normal;
-font-size: 40px;
-line-height: 61px;
+font-size: 30px;
+line-height: 40px;
 width: 400px;
   }
   .aircleaner__description {
     position: absolute;
     color: white;
-    top:40%;
+    top:36%;
     left: 10%;
-    width: 400px;
-    font-size: 20px
+    width: 300px;
+    line-height: 16px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
   }
   .aircleaner__buttons {
     position: absolute;
     display: flex;
     justify-content: space-between;
     width: 400px;
-    top:60%;
+    top:50%;
     left: 10%;
   }
   .aircleaner__buttons-button1 {
@@ -853,7 +853,7 @@ width: 400px;
   color: white;
   height: 50px;
   border-radius: 50px;
-  width: 200px;
+  width: 160px;
 }
 
 .aircleaner__buttons-button2 {
@@ -863,9 +863,85 @@ width: 400px;
           box-sizing: border-box;
   height: 50px;
   border-radius: 50px;
-  width: 200px;
+  width: 160px;
 }
 }
+
+
+@media screen and (min-width:630px) and (max-width: 767px) {
+  .aircleaner {
+    
+    min-width: 100%;
+  }
+  
+  .aircleaner__title {
+    position: absolute;
+    top:10%;
+    left:10%;
+    color: white;
+    z-index: 2;
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 61px;
+width: 200px;
+min-width: 100%;
+  }
+  .aircleaner__description {
+    position: absolute;
+    color: white;
+    top:20%;
+    left: 10%;
+    width: 40%;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .aircleaner__buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top:40%;
+    left: 10%;
+    width:220px;
+  }
+  .aircleaner__buttons-button1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E39045), to(#754519));
+  background: linear-gradient(180deg, #E39045 0%, #754519 100%);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  
+  border-radius: 50px;
+  width: 80px;
+  height: 30px;
+
+}
+
+.aircleaner__buttons-button2 {
+  background: transparent;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  
+  border-radius: 50px;
+  width: 80px;
+  height: 30px;
+
+}
+}
+  
+@media screen and (max-width:630px) {
+  .aircleaner  {
+    
+    display: none;
+  }
+  
+}
+
+
+
 
 
 
@@ -1244,7 +1320,7 @@ width: 400px;
   .header__logo {
     position: absolute;
     left: 10%;
-    top: 5%;
+    top: 8%;
   }
 
 
@@ -1456,6 +1532,7 @@ width: 400px;
   }
 
   .time {
+    position: absolute;
     width: 80%;
     padding-left: 5%;
     color: white;
