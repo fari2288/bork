@@ -744,13 +744,21 @@
 
 */
 
+.aircleaner {
+  display: flex;
+  height: 900px;
+  justify-content: center;
+  border: 1px yellow solid;
+}
+.aircleaner__img {
+  width: 100%;
 
-
-
-
-
-
-
+}
+.aircleaner__buttons-button1:hover,
+.aircleaner__buttons-button2:hover {
+  -webkit-box-shadow: #787878 0 0 0.375rem;
+          box-shadow: #787878 0 0 0.375rem;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -888,7 +896,57 @@
     top: 7%;
     color: #FFFFFF;
   }
+  
+  .aircleaner__title {
+    position: absolute;
+    top: 26%;
+    left:10%;
+    color: white;
+    z-index: 2;
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 61px;
+width: 700px;
+  }
+  .aircleaner__description {
+    position: absolute;
+    color: white;
+    top:40%;
+    left: 10%;
+    width: 700px;
+    font-size: 20px
+  }
+  .aircleaner__buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    top:60%;
+    left: 10%;
+  }
+  .aircleaner__buttons-button1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E39045), to(#754519));
+  background: linear-gradient(180deg, #E39045 0%, #754519 100%);
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  height: 92px;
+  border-radius: 50px;
+  width: 320px;
+}
 
+.aircleaner__buttons-button2 {
+  background: transparent;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 92px;
+  border-radius: 50px;
+  width: 320px;
+}
   .text {
     padding-top: 12px;
   }
