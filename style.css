@@ -495,7 +495,7 @@ width: 400px;
 
 .carousel-item {
   width: 100%;
-  height: 680px;
+  /*height: 680px;*/
 }
 
 .LP__about_text-title {
@@ -649,7 +649,7 @@ width: 400px;
 
 @media screen and (min-width: 1024px) {
   .latest {
-    background-color: #141313;
+    background-color: #000000;
     height: 1200px;
     color: #FFFFFF;
     min-width: 100%;
