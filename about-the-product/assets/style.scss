@@ -164,6 +164,7 @@ $whitebg:rgba(255, 255, 255, 0.8);
     display: flex;
     justify-content: center;
     background-color: black;
+
 }
 
 .header__text {
@@ -171,6 +172,7 @@ $whitebg:rgba(255, 255, 255, 0.8);
     font-size: 20px;
     line-height: 19px;
     color: $whitebg;
+
 }
 
 .header__text-aboutus:hover,
@@ -185,6 +187,7 @@ $whitebg:rgba(255, 255, 255, 0.8);
 .catalog {
     display: flex;
     padding-top: 3%;
+
 }
 
 .button {
@@ -192,23 +195,11 @@ $whitebg:rgba(255, 255, 255, 0.8);
     background-color: transparent;
 }
 
-.footer {
-    font-family: Gotham Pro;
-    font-size: 30px;
-    line-height: 29px;
-}
-
 .button1:hover {
     box-shadow: #787878 0 0 0.375rem;
 }
 
-.footer__button2 {
-    padding-top: 50px;
-}
 
-.button2:hover {
-    box-shadow: #787878 0 0 0.375rem;
-}
 
 @media screen and (min-width: 1024px) {
     .header__text {
@@ -224,11 +215,13 @@ $whitebg:rgba(255, 255, 255, 0.8);
         -ms-flex-pack: space-evenly;
         justify-content: space-evenly;
         flex-grow: 1;
+        width: 50;
         /* width: 50%;
       margin-bottom: 5%;
       top: 7%;*/
-        padding-left: 150px;
+        padding-left: 200px;
         padding-top: 50px;
+        padding-right: 200px;
 
         color: $whitebg;
         background-color: black;
