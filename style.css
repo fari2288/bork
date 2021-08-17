@@ -362,6 +362,14 @@ width: 400px;
 }
 
 
+
+
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
   
   .aircleaner,
@@ -373,31 +381,93 @@ width: 400px;
 }
 
 /*блок каталог товаров*/
-@media screen and (max-width: 900px) {
-  button.btn-rounded {
-    padding-left: 10px;
-    padding-right: 30px;
-  }
-}
-
-@media all and (max-width: 700px) {
-  .tuk {
-    margin-left: -50px;
-    margin-right: -50px;
-  }
-  .card-link_color {
-    font-size: 10px;
-    line-height: 14px;
-  }
-}
-
 .wrapper-header {
-  max-width: 100%;
+  background: #000000;
+}
+
+
+
+
+
+@media screen and (min-width: 1026px) {
+  
+  .wrapper-header {
+    min-width: 100%;
+    margin: auto;
+    background-color: black;
+  }
+  .cards {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap
+  }
+  .cards::-webkit-scrollbar {
+    display: none;
+
+}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: black;
+  width: 300px;
+  min-width: 300px;
+}
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: black;
+  width: 260px;
+  min-width: 260px;
+}
+
+}
+@media screen and (max-width: 767px) {
+  .wrapper-header {
+  min-width: 400px;
   margin: auto;
   background-color: black;
 }
+  .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  width: 200px;
+  min-width: 200px;
+  background-color: black;
+}
+}
+
+.btn-group {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 
 .textpro {
+  width: 100%;
   font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -414,7 +484,6 @@ width: 400px;
   line-height: 24px;
   color: #FFFFFF;
 }
-
 .textcard_into {
   font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
@@ -481,7 +550,18 @@ width: 400px;
 .LP__about-us {
   width: 100%;
   height: 680px;
+
 }
+@media screen and (max-width: 768px) {
+.LP__about-us {
+  display: none;
+}
+}
+  @media screen  and (min-width: 769px) and (max-width:1026px) {
+    .LP__about-us {
+display: none;
+    }
+  }
 
 .container-fluid {
   width: 100%;
@@ -585,7 +665,7 @@ width: 400px;
 .LP__about-img {
   height: 1029px;
   width: 50%;
-  background: url(/bork/assets/LP/about-img.jpg);
+  background: url(../bork/assets/LP/about-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -650,7 +730,7 @@ width: 400px;
 @media screen and (min-width: 1024px) {
   .latest {
     background-color: #000000;
-    height: 1200px;
+    height: 120vh;
     color: #FFFFFF;
     min-width: 100%;
   }
@@ -732,7 +812,7 @@ width: 400px;
 
   .latest {
     background-color: #141313;
-    height: 160vh;
+    height: 100vh;
     color: #FFFFFF;
     min-width: 100%;
   }
@@ -749,8 +829,8 @@ width: 400px;
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    padding-top: 30%;
-    padding-bottom: 65px;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 
   .price {

@@ -424,8 +424,7 @@
     .card5,
     .card6 {
         background-color: black;
-        width:400px;
-        min-width: 400px;
+        width:300px;
         border: yellow 1px solid;
     }
 
@@ -449,7 +448,6 @@
     .card6 {
         background-color: black;
         width: 300px;
-        min-width: 300px;
     }
 
 }
@@ -474,7 +472,6 @@
     .card5,
     .card6 {
         width: 200px;
-        min-width: 200px;
         background-color: black;
     }
 }
