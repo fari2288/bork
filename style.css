@@ -446,8 +446,12 @@ width: 400px;
 }
   .cards {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    flex-grow: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
   }
 .card1,
 .card2,
@@ -455,8 +459,7 @@ width: 400px;
 .card4,
 .card5,
 .card6 {
-  width: 200px;
-  min-width: 200px;
+  width: 300px;
   background-color: black;
 }
 }
