@@ -495,10 +495,13 @@ width: 400px;
     color: #FFFFFF;
   }
   .wrapper-header {
-  min-width: 400px;
-  min-width: 400px;
+    width: 100%;
   margin: auto;
   background-color: black;
+}
+.btn-rounded {
+  width: 60%;
+  min-width: 60%;
 }
   .cards {
     display: flex;
