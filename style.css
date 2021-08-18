@@ -224,10 +224,7 @@
   }
 
   .header__iphone {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+    display: none;
   }
 
   .time {
