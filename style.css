@@ -480,6 +480,7 @@ width: 400px;
   width: 300px;
   min-width: 300px;
   padding: 50px;
+  margin: 50px ;
 }
 
 }
@@ -517,6 +518,7 @@ width: 400px;
   width: 260px;
   min-width: 260px;
   background-color: black;
+  margin: 50px;
 }
 }
 
