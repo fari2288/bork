@@ -14,7 +14,7 @@
 
 .header__text {
   font-family: 'Gotham Pro';
-  font-size: 20px;
+  font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
@@ -49,9 +49,9 @@ width:160px }
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     flex-grow: 1;
     width: 60%;
     margin-bottom: 5%;
@@ -238,8 +238,13 @@ width:160px }
 }
 .aircleaner__img {
   width: 100%;
-
 }
+
+.card-img-top .card-color {
+  height: 500px;
+}
+
+
 .carousel-control-next,
 .carousel-control-prev {
   background-color: transparent;
@@ -389,17 +394,43 @@ width: 400px;
 
 
 
-@media screen and (min-width: 1026px) {
+@media screen and (min-width: 1024px) {
+  .textpro {
+    width: 100%;
+    font-family: "GothamPro", "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 62px;
+    color: #FFFFFF;
+  }
+  
+  
+  .textpro {
+  width: 100%;
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+  
   
   .wrapper-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
     min-width: 100%;
     margin: auto;
     background-color: black;
   }
   .cards {
     display: flex;
+    justify-content: center;
     overflow-x: auto;
-    flex-wrap: nowrap
+    flex-wrap: wrap;
   }
   .cards::-webkit-scrollbar {
     display: none;
@@ -412,15 +443,28 @@ width: 400px;
 .card5,
 .card6 {
   background-color: black;
-  width: 300px;
-  min-width: 300px;
+  width: 340px;
+  min-width: 340px;
+  padding: 50px;
+  margin: 50px;
 }
 
 }
-
+.card-color {
+  height: 400px;
+}
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .textpro {
+    width: 100%;
+    font-family: "GothamPro", "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 62px;
+    color: #FFFFFF;
+  }
   .cards {
     display: flex;
     flex-wrap: nowrap;
@@ -433,12 +477,22 @@ width: 400px;
 .card5,
 .card6 {
   background-color: black;
-  width: 260px;
-  min-width: 260px;
+  width: 300px;
+  min-width: 300px;
+  padding: 50px;
 }
 
 }
 @media screen and (max-width: 767px) {
+  .textpro {
+    width: 100%;
+    font-family: "GothamPro", "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 62px;
+    color: #FFFFFF;
+  }
   .wrapper-header {
   min-width: 400px;
   min-width: 400px;
@@ -460,7 +514,8 @@ width: 400px;
 .card4,
 .card5,
 .card6 {
-  width: 300px;
+  width: 260px;
+  min-width: 260px;
   background-color: black;
 }
 }
@@ -470,15 +525,7 @@ width: 400px;
   padding-top: 30px;
 }
 
-.textpro {
-  width: 100%;
-  font-family: "GothamPro", "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 62px;
-  color: #FFFFFF;
-}
+
 
 .textcard {
   font-family: "GothamPro", "Montserrat", sans-serif;
