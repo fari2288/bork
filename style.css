@@ -37,7 +37,8 @@
   border: none;
   background-color: transparent;
 }
-
+.carousel-control-next {
+width:160px }
 @media screen and (min-width: 1024px) {
 .header__text {
     position: absolute;
@@ -52,7 +53,7 @@
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     flex-grow: 1;
-    width: 50%;
+    width: 60%;
     margin-bottom: 5%;
     top: 7%;
     color: #FFFFFF;
@@ -129,7 +130,7 @@
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     flex-grow: 1;
-    width: 50%;
+    width: 60%;
     top: 5%;
     color: #FFFFFF;
   }
@@ -146,10 +147,9 @@
   .header__text-contacts,
   .header__text-catalog,
   .header__text-partnership {
-    padding-inline: 20px;
     min-width: 100%;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
   }
 
   .catalog {
