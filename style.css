@@ -6,8 +6,6 @@
   src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
 
-<<<<<<< HEAD
-=======
 /*блок хедер начало*/
 .header {
   display: flex;
@@ -604,7 +602,6 @@ width: 400px;
 
 
 
->>>>>>> 877be8054c21a300948637d1cc09820c19ef3a2e
 /*блок карусель начало*/
 .LP__about-us {
   width: 100%;
