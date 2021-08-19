@@ -260,7 +260,15 @@
   display: flex;
   justify-content: center;
 }
-
+.aircleaner__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 100%;
+}
 .aircleaner__img {
   width: 100%;
 }
@@ -294,15 +302,15 @@
     font-size: 30px;
     line-height: 61px;
     width: 700px;
+    min-width: 700px;
   }
 
   .aircleaner__description {
-    font-family: "GothamPro", "Montserrat", sans-serif;
     position: absolute;
     color: #FFFFFF;
     top: 50%;
     left: 10%;
-    width: 700px;
+    width: 500px;
     font-size: 20px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.4);
@@ -313,6 +321,7 @@
     display: flex;
     justify-content: space-between;
     width: 700px;
+    min-width: 700px;
     top: 70%;
     left: 10%;
     padding-bottom: 30px;
@@ -323,6 +332,7 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     color: white;
+    font-size: 20px;
     height: 80px;
     border-radius: 50px;
     width: 280px;
@@ -333,6 +343,7 @@
     color: #FFFFFF;
     box-sizing: border-box;
     height: 80px;
+    font-size: 20px;
     border-radius: 50px;
     width: 280px;
   }
@@ -340,7 +351,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .aircleaner__title {
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 10%;
     color: #FFFFFF;
     z-index: 2;
@@ -355,9 +366,11 @@
   .aircleaner__description {
     position: absolute;
     color: #FFFFFF;
-    top: 36%;
+    top: 50%;
     left: 10%;
     width: 300px;
+    min-width: 300px;
+    min-width: 300px;
     line-height: 16px;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
@@ -368,7 +381,8 @@
     display: flex;
     justify-content: space-between;
     width: 400px;
-    top: 50%;
+    min-width: 400px;
+    top: 80%;
     left: 10%;
   }
 
@@ -379,18 +393,21 @@
     color: #FFFFFF;
     font-size: 11px;
     height: 50px;
+
     border-radius: 50px;
     width: 160px;
+    min-width: 160px;
   }
 
   .aircleaner__buttons-button2 {
     background: transparent;
     color: #FFFFFF;
     box-sizing: border-box;
-    font-size: 11px;
     height: 50px;
+    font-size: 11px;
     border-radius: 50px;
     width: 160px;
+    min-width: 160px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -404,6 +421,9 @@
   button.btn-rounded {
     padding-left: 10px;
     padding-right: 30px;
+  }
+  .wrapper-header {
+    overflow-x: hidden;
   }
 }
 @media all and (max-width: 700px) {
@@ -421,7 +441,6 @@
   max-width: 100%;
   margin: auto;
   background-color: #000000;
-  overflow-x: hidden;
 }
 
 .textpro {

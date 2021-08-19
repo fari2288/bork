@@ -424,6 +424,10 @@ $whitecatalogbg:rgba(255, 255, 255, 0.7);
         top: 36%;
         left: 10%;
         width: 300px;
+        min-width: 300px;
+        border: 1px yellow solid;
+        
+    min-width: 300px;
         line-height: 16px;
         font-size: 16px;
         color: rgba(255, 255, 255, 0.4);
@@ -434,6 +438,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.7);
         display: flex;
         justify-content: space-between;
         width: 400px;
+        min-width: 400px;
         top: 50%;
         left: 10%;
     }
@@ -448,6 +453,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.7);
         height: 50px;
         border-radius: 50px;
         width: 160px;
+        min-width: 160px;
     }
 
     .aircleaner__buttons-button2 {
@@ -458,6 +464,7 @@ $whitecatalogbg:rgba(255, 255, 255, 0.7);
         height: 50px;
         border-radius: 50px;
         width: 160px;
+        min-width: 160px;
     }
 }
 
