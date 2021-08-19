@@ -53,7 +53,6 @@
 
 .carousel-control-next {
   width: 140px;
-  border: yellow 1px solid;
 }
 
 @media screen and (min-width: 1024px) {
@@ -261,7 +260,6 @@
   display: flex;
   justify-content: center;
 }
-
 .aircleaner__img {
   width: 100%;
 }
@@ -292,17 +290,18 @@
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 61px;
     width: 700px;
   }
 
   .aircleaner__description {
     position: absolute;
+    font-family: Gotham Pro;
     color: #FFFFFF;
     top: 50%;
     left: 10%;
-    width: 500px;
+    width: 700px;
     font-size: 20px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.4);
@@ -419,6 +418,7 @@
   max-width: 100%;
   margin: auto;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .textpro {
@@ -602,10 +602,6 @@
 }
 
 .button2:hover {
-  background: linear-gradient(to bottom, #dda06b 0%, #8d6039 100%);
-}
-
-.button2:hover {
   box-shadow: #787878 0 0 0.375rem;
 }
 
@@ -698,7 +694,7 @@
   }
 
   .footer__aboutus-link:hover {
-    color: white;
+    color: #FFFFFF;
     text-shadow: 0 0 3px #FFFFFF;
   }
 }
@@ -1062,16 +1058,13 @@
   line-height: 29px;
 }
 
-.button1:hover {
-  background-color: #252525;
+.button1:hover,
+.button2:hover {
+  box-shadow: #787878 0 0 0.375rem;
 }
 
 .footer__button2 {
   padding-top: 50px;
-}
-
-.button2:hover {
-  background: linear-gradient(to bottom, #E08E44, #77461A);
 }
 
 .footer__inn .hover:hover,
