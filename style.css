@@ -297,11 +297,12 @@
   }
 
   .aircleaner__description {
+    font-family: "GothamPro", "Montserrat", sans-serif;
     position: absolute;
     color: #FFFFFF;
     top: 50%;
     left: 10%;
-    width: 500px;
+    width: 700px;
     font-size: 20px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.4);
