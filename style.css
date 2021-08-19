@@ -288,9 +288,10 @@
     left: 10%;
     color: #FFFFFF;
     z-index: 2;
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 30px;
     line-height: 61px;
     width: 700px;
   }
@@ -321,6 +322,7 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     color: white;
+    font-size: 26px;
     height: 80px;
     border-radius: 50px;
     width: 280px;
@@ -331,6 +333,7 @@
     color: #FFFFFF;
     box-sizing: border-box;
     height: 80px;
+    font-size: 26px;
     border-radius: 50px;
     width: 280px;
   }
@@ -342,9 +345,10 @@
     left: 10%;
     color: #FFFFFF;
     z-index: 2;
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
+    font-size: 30px;
     line-height: 40px;
     width: 400px;
   }
