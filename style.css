@@ -49,7 +49,8 @@
 }
 
 .carousel-control-next {
-  width: 140px
+  width: 140px;
+  border: yellow 1px solid;
 }
 
 @media screen and (min-width: 1024px) {
