@@ -5,7 +5,7 @@
   src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
 @font-face {
-  font-family: "GothamPro";
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
@@ -16,7 +16,7 @@
 }
 
 .header__text {
-  font-family: "Gotham Pro";
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
@@ -423,7 +423,7 @@
 }
 
 .textpro {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -432,7 +432,7 @@
 }
 
 .textcard {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -441,7 +441,7 @@
 }
 
 .textcard_into {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -512,7 +512,7 @@
 }
 
 .LP__about_text-title {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -522,7 +522,7 @@
 }
 
 .LP__about_text-text {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
@@ -553,7 +553,7 @@
 }
 
 .LP__about_text-title {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -563,7 +563,7 @@
 }
 
 .LP__about_text-text {
-  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -589,7 +589,7 @@
 }
 
 .footer {
-  font-family: Gotham Pro;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-size: 30px;
   line-height: 29px;
 }
@@ -720,7 +720,7 @@
   }
 
   .LP__about_text-title {
-    font-family: "GothamPro", "Montserrat", sans-serif;
+    font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -730,7 +730,7 @@
   }
 
   .LP__about_text-text {
-    font-family: "GothamPro", "Montserrat", sans-serif;
+    font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -819,7 +819,7 @@
   }
 }
 .price {
-  font-family: Gotham Pro;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-size: 36px;
   line-height: 34px;
   color: rgba(255, 255, 255, 0.4);
@@ -893,7 +893,7 @@
   }
 
   .latest {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 64px;
     line-height: 61px;
   }
@@ -907,7 +907,7 @@
   }
 
   .price {
-    font-family: "Gotham Pro";
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 36px;
     line-height: 34px;
     color: rgba(255, 255, 255, 0.4);
@@ -947,7 +947,7 @@
   }
 
   .latest {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 64px;
     line-height: 61px;
   }
@@ -976,7 +976,7 @@
   }
 
   .price {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 20px;
     line-height: 34px;
     color: rgba(255, 255, 255, 0.4);
@@ -1001,7 +1001,7 @@
   }
 
   .latest {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 20px;
     line-height: 10px;
   }
@@ -1022,7 +1022,7 @@
   }
 
   .price {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 20px;
     line-height: 34px;
     color: rgba(255, 255, 255, 0.4);
@@ -1054,7 +1054,7 @@
   }
 }
 .footer {
-  font-family: Gotham Pro;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-size: 30px;
   line-height: 29px;
 }
@@ -1147,7 +1147,7 @@
   }
 
   .color {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 20px;
     line-height: 40px;
     color: rgba(255, 255, 255, 0.4);
@@ -1228,7 +1228,7 @@
   }
 
   .color {
-    font-family: Gotham Pro;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-size: 20px;
     line-height: 40px;
     color: rgba(255, 255, 255, 0.4);
