@@ -1144,8 +1144,9 @@
 }
 
 .button2:hover {
-  background: linear-gradient(to bottom, #dda06b 0%, #8d6039 100%);
+  background: linear-gradient(to bottom, #E08E44, #77461A);
 }
+
 
 
 .footer__inn .hover:hover,
