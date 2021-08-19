@@ -291,7 +291,6 @@
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
     line-height: 61px;
     width: 700px;
   }
@@ -322,7 +321,6 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     color: white;
-    font-size: 26px;
     height: 80px;
     border-radius: 50px;
     width: 280px;
@@ -333,7 +331,6 @@
     color: #FFFFFF;
     box-sizing: border-box;
     height: 80px;
-    font-size: 26px;
     border-radius: 50px;
     width: 280px;
   }
@@ -348,7 +345,6 @@
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
     line-height: 40px;
     width: 400px;
   }
@@ -419,11 +415,11 @@
 .wrapper-header {
   max-width: 100%;
   margin: auto;
-  background-color: black;
+  background-color: #000000;
 }
 
 .textpro {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -432,7 +428,7 @@
 }
 
 .textcard {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -441,7 +437,7 @@
 }
 
 .textcard_into {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -512,7 +508,7 @@
 }
 
 .LP__about_text-title {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -522,7 +518,7 @@
 }
 
 .LP__about_text-text {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 25px;
@@ -553,7 +549,7 @@
 }
 
 .LP__about_text-title {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -563,7 +559,7 @@
 }
 
 .LP__about_text-text {
-  font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+  font-family: "GothamPro", "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -720,7 +716,7 @@
   }
 
   .LP__about_text-title {
-    font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
@@ -730,7 +726,7 @@
   }
 
   .LP__about_text-text {
-    font-family: "GothamPro", "Montserrat", sans-serif, "Montserrat", sans-serif;
+    font-family: "GothamPro", "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -805,7 +801,7 @@
   .footer__phone {
     font-size: 30px;
     padding-top: 20px;
-    color: rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.4);
   }
 
   .footer__aboutus-link {
