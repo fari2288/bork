@@ -425,7 +425,8 @@
 @media screen and (max-width: 767px) {
 
   .aircleaner,
-  .carousel .slide {
+  .carousel .slide,
+  .aircleaner__title {
     display: none;
   }
 
