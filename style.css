@@ -7,7 +7,6 @@
   src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
 
-/*блок хедер начало*/
 .header {
   display: flex;
   justify-content: center;
@@ -28,7 +27,14 @@
   cursor: pointer;
   text-shadow: 0 0 5px #FFFFFF;
 }
-
+.header__text-aboutus-link {
+  text-decoration: none;
+  color: white;
+}
+.header__text-aboutus-link:hover {
+  color: white;
+  text-shadow: 0 0 5px #FFFFFF;
+}
 .catalog {
   display: flex;
   padding-top: 3%;
@@ -40,7 +46,7 @@
 }
 
 .carousel-control-next {
-  width: 160px
+  width: 140px
 }
 
 @media screen and (min-width: 1024px) {
@@ -160,7 +166,6 @@
   .catalog {
     justify-content: center;
     width: 100%;
-    height: 680px;
   }
 
   .header__logo {
@@ -209,9 +214,17 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__logo {
-    display: none;
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: white 1px solid;
   }
+
+  .header__logo {
+    display: none
+  }
+
 
   .header__basket,
   .header__ellipse2,
@@ -220,21 +233,50 @@
   }
 
   .header__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+
+  .header__text-catalog {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header__text-aboutus,
+  .header__text-catalog,
+  .header__text-partnership,
+  .header__text-contacts {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .header__basket,
+  .header__ellipse2,
+  .header__four {
     display: none;
   }
+
 
   .header__iphone {
     display: none;
   }
 
-  .time {
-    width: 80%;
-    padding-left: 5%;
-    color: white;
-  }
 }
 
-/*блок воздухоочиститель*/
 
 .aircleaner {
   display: flex;
@@ -254,6 +296,7 @@
 .carousel-control-prev {
   background-color: transparent;
   border-style: none;
+  height: 100%;
 }
 
 .aircleaner__buttons-button1:hover,
@@ -384,13 +427,11 @@
 
   .aircleaner,
   .carousel .slide {
-
     display: none;
   }
 
 }
 
-/*блок каталог товаров*/
 
 @media screen and (max-width: 900px) {
   button.btn-rounded {
@@ -489,257 +530,10 @@
   text-decoration-line: none;
 }
 
-/*.wrapper-header {
-  background: #000000;
-}
-
-@media screen and (min-width: 1024px) {
-  .textpro {
-    width: 100%;
-    height: 680px;
-  }
-  .LP__about_text-title {
-    font-family: "GothamPro", "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-  }
-
-
-  .textpro {
-    width: 100%;
-    font-family: "GothamPro", "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 62px;
-    color: #FFFFFF;
-  }
-
-
-  .wrapper-header {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    min-width: 100%;
-    margin: auto;
-    background-color: black;
-  }
-
-  .cards {
-    display: flex;
-    justify-content: center;
-    overflow-x: auto;
-    flex-wrap: wrap;
-  }
-
-  .cards::-webkit-scrollbar {
-    display: none;
-
-  }
-
-  .card1,
-  .card2,
-  .card3,
-  .card4,
-  .card5,
-  .card6 {
-    background-color: black;
-    width: 340px;
-    min-width: 340px;
-    padding: 50px;
-    margin: 50px;
-  }
-
-}
-
-.card-color {
-  height: 400px;
-}
-
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .textpro {
-    width: 100%;
-    height: 1029px;
-    background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, rgba(37, 37, 37, 0)));
-    background: linear-gradient(270deg, #252525 23.57%, rgba(37, 37, 37, 0) 82.29%);
-    background: -webkit-gradient(linear, right top, left top, color-stop(23.57%, #252525), color-stop(82.29%, #252525));
-    background: linear-gradient(270deg, #252525 23.57%, #252525 82.29%);
-  }
-  .LP__about_text {
-    width: 50%;
-    margin: 100px 0px 0px 0px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin: 160px 150px 0px 100px;
-  }
-  .LP__about_text-title {
-    font-family: "GothamPro", "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 60px;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-  }
-
-  .cards {
-    display: flex;
-  }
-
-  .card1,
-  .card2,
-  .card3,
-  .card4,
-  .card5,
-  .card6 {
-    background-color: black;
-    width: 300px;
-    min-width: 300px;
-    padding: 50px;
-    margin: 50px;
-  }
-
-}
-
-@media screen and (max-width: 767px) {
-  .textpro {
-    width: 100%;
-    height: 680px;
-    display: none;
-  }
-
-  .wrapper-header {
-    width: 100%;
-    margin: auto;
-    background-color: black;
-  }
-
-  .btn-rounded {
-    width: 60%;
-    min-width: 60%;
-  }
-
-  .cards {
-    display: flex;
-    flex-grow: 1;
-    padding-left: 100px;
-    padding-right: 100px;
-    justify-content: center;
-    justify-items: center;
-    flex-wrap: wrap;
-  }
-
-  .card1,
-  .card2,
-  .card3,
-  .card4,
-  .card5,
-  .card6 {
-    width: 260px;
-    min-width: 260px;
-    background-color: black;
-    margin: 50px;
-  }
-}
-
-.btn-group {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-
-
-.textcard {
-  font-family: "GothamPro", "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  color: #FFFFFF;
-}
-
-.textcard_into {
-  font-family: "GothamPro", "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #FFFFFF;
-}
-
-.btn-rounded {
-  border-radius: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 50px;
-  padding-right: 150px;
-  background-color: #252525;
-  color: #FFFFFF;
-}
-
-.plus_bg {
-  background-color: #814e21;
-  border-radius: 20px;
-  color: #FFFFFF;
-}
-
-.card-color {
-  background-color: #252525;
-  border-radius: 10px;
-  height: 200px;
-}
-
-.card-color:hover {
-  background-color: #FFFFFF;
-}
-
-.card-bgcolor {
-  background-color: black;
-}
-
-.text_align {
-  text-align: start;
-}
-
-.point {
-  width: 40px;
-  height: 10px;
-}
-
-.card-link_color {
-  color: rgba(255, 255, 255, 0.7);
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
-}*/
 
 
 
 
-
-
-
-
-
-/*блок карусель начало*/
 .LP__about-us {
   width: 100%;
   height: 680px;
@@ -757,7 +551,6 @@
 
 .carousel-item {
   width: 100%;
-  height: 680px;
 }
 
 .LP__about_text-title {
@@ -782,8 +575,6 @@
   text-align: left;
 }
 
-/*блок карусель конец*/
-/*псевдокарусель начало*/
 .LP__about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1576,5 +1367,4 @@
   }
   }
 
-/*псевдокарусель конец*/
 /*# sourceMappingURL=style.css.map */
