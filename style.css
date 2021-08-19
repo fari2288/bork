@@ -218,7 +218,6 @@
     display: flex;
     flex-wrap: wrap;
     background-color: black;
-    border: white 1px solid;
   }
 
   .header__logo {
