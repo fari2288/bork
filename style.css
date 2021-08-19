@@ -867,7 +867,9 @@
 .latest__video-overlay:hover {
   z-index: -1;
 }
-
+.latest__video-video:hover {
+  z-index: 1;
+}
 .latest__video {
   position: relative;
   left: 10%;
