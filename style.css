@@ -310,7 +310,7 @@
     color: #FFFFFF;
     top: 50%;
     left: 10%;
-    width: 500px;
+    width: 700px;
     font-size: 20px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.4);
@@ -368,9 +368,7 @@
     color: #FFFFFF;
     top: 50%;
     left: 10%;
-    width: 300px;
-    min-width: 300px;
-    min-width: 300px;
+    width: 400px;
     line-height: 16px;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
