@@ -322,7 +322,6 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     color: white;
-    font-size: 26px;
     height: 80px;
     border-radius: 50px;
     width: 280px;
@@ -333,7 +332,6 @@
     color: #FFFFFF;
     box-sizing: border-box;
     height: 80px;
-    font-size: 26px;
     border-radius: 50px;
     width: 280px;
   }
