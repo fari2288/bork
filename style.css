@@ -377,6 +377,7 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
     color: #FFFFFF;
+    font-size: 11px;
     height: 50px;
     border-radius: 50px;
     width: 160px;
@@ -386,6 +387,7 @@
     background: transparent;
     color: #FFFFFF;
     box-sizing: border-box;
+    font-size: 11px;
     height: 50px;
     border-radius: 50px;
     width: 160px;
