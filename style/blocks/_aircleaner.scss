@@ -1,0 +1,166 @@
+
+
+.aircleaner {
+    display: flex;
+    justify-content: center;
+}
+
+.aircleaner__img {
+    width: 100%;
+}
+
+.card-img-top .card-color {
+    height: 500px;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    background-color: transparent;
+    border-style: none;
+    height: 100%;
+}
+
+.aircleaner__buttons-button1:hover,
+.aircleaner__buttons-button2:hover {
+    -webkit-box-shadow: $lightning;
+    box-shadow: $lightning;
+}
+
+@media screen and (min-width: 1024px) {
+    .aircleaner__title {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: $white;
+        z-index: 2;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 61px;
+        width: 700px;
+    }
+
+    .aircleaner__description {
+        position: absolute;
+        color: $white;
+        top: 50%;
+        left: 10%;
+        width: 500px;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.4);
+    }
+
+    .aircleaner__buttons {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 700px;
+        top: 70%;
+        left: 10%;
+        padding-bottom: 30px;
+    }
+
+    .aircleaner__buttons-button1 {
+        background: -webkit-gradient(linear, left top, left bottom, from(#E39045), to(#754519));
+        background: linear-gradient(180deg, #E39045 0%, #754519 100%);
+        -webkit-box-shadow: 4px 4px 4px $btn-bg1-color;
+        box-shadow: 4px 4px 4px $btn-bg1-color;
+        border: none;
+        color: white;
+        font-size: 26px;
+        height: 80px;
+        border-radius: 50px;
+        width: 280px;
+    }
+
+    .aircleaner__buttons-button2 {
+        background: transparent;
+        color: $white;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 80px;
+        font-size: 26px;
+        border-radius: 50px;
+        width: 280px;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .aircleaner__title {
+        position: absolute;
+        top: 26%;
+        left: 10%;
+        color: $white;
+        z-index: 2;
+        font-family: $default-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 40px;
+        width: 400px;
+    }
+
+    .aircleaner__description {
+        position: absolute;
+        color: $white;
+        top: 36%;
+        left: 10%;
+        width: 300px;
+        min-width: 300px;
+        border: 1px yellow solid;
+        
+    min-width: 300px;
+        line-height: 16px;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.4);
+    }
+
+    .aircleaner__buttons {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        min-width: 400px;
+        top: 50%;
+        left: 10%;
+    }
+
+    .aircleaner__buttons-button1 {
+        background: -webkit-gradient(linear, left top, left bottom, from(#E39045), to(#754519));
+        background: linear-gradient(180deg, #E39045 0%, #754519 100%);
+        -webkit-box-shadow: 4px 4px 4px $btn-bg1-color;
+        box-shadow: 4px 4px 4px $btn-bg1-color;
+        border: none;
+        color: $white;
+        height: 50px;
+        border-radius: 50px;
+        width: 160px;
+        min-width: 160px;
+    }
+
+    .aircleaner__buttons-button2 {
+        background: transparent;
+        color: $white;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 50px;
+        border-radius: 50px;
+        width: 160px;
+        min-width: 160px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .aircleaner,
+    .carousel .slide,
+    .aircleaner__title {
+        display: none;
+    }
+
+}

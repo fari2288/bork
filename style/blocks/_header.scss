@@ -1,0 +1,272 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__text {
+    font-family: $default-font;
+    font-size: 16px;
+    line-height: 19px;
+    color: $white;
+}
+
+.header__text-aboutus:hover,
+.header__text-contacts:hover,
+.header__text-partnership:hover,
+.text:hover,
+.dropdown-item:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px $white;
+}
+
+.header__text-aboutus-link {
+    text-decoration: none;
+    color: $white;
+}
+
+.header__text-aboutus-link:hover {
+    color: $white;
+    text-shadow: 0 0 5px $white;
+}
+
+.catalog {
+    display: flex;
+    padding-top: 3%;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+}
+
+.carousel-control-next {
+    width: 140px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__text {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        flex-grow: 1;
+        width: 60%;
+        margin-bottom: 5%;
+        top: 7%;
+        color: $white;
+    }
+
+    .text {
+        padding-top: 12px;
+    }
+
+    .dropdown {
+        padding-top: 10px;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 10%;
+        top: 8%;
+    }
+
+    .header__basket {
+        position: absolute;
+        right: 10%;
+        top: 8%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .basket {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__four {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        color: $white;
+        font-size: 10px;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+    }
+
+    .header__text-aboutus,
+    .header__text-contacts,
+    .header__text-catalog,
+    .header__text-partnership {
+        padding-inline: 20px;
+    }
+
+    .header__iphone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__text {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        width: 60%;
+        top: 5%;
+        color: $white;
+    }
+
+    .text {
+        padding-top: 5px;
+    }
+
+    .dropdown {
+        padding-top: 2px;
+    }
+
+    .header__text-aboutus,
+    .header__text-contacts,
+    .header__text-catalog,
+    .header__text-partnership {
+        min-width: 100%;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .catalog {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 10%;
+        top: 5%;
+    }
+
+
+    .header__basket {
+        position: absolute;
+        right: 10%;
+        top: 5%;
+        top: 8%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .basket {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header__four {
+        position: absolute;
+        right: 3px;
+        top: 0;
+        color: $white;
+        font-size: 10px;
+    }
+
+    .header__ellipse2 {
+        position: absolute;
+    }
+
+    .header__iphone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: $black;
+    }
+
+    .header__logo {
+        display: none
+    }
+
+
+    .header__basket,
+    .header__ellipse2,
+    .header__four {
+        display: none;
+    }
+
+    .header__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        color: $white;
+    }
+
+    .header__text-catalog {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header__text-aboutus,
+    .header__text-catalog,
+    .header__text-partnership,
+    .header__text-contacts {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .header__basket,
+    .header__ellipse2,
+    .header__four {
+        display: none;
+    }
+
+
+    .header__iphone {
+        display: none;
+    }
+
+}

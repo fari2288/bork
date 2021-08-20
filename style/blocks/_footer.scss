@@ -1,0 +1,312 @@
+
+.footer {
+    font-family:$default-font;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.button1:hover,
+.button2:hover{
+    box-shadow: $lightning;
+}
+
+.footer__button2 {
+    padding-top: 50px;
+}
+
+
+
+.footer__inn .hover:hover,
+.footer__catalog .hover:hover,
+.footer__partnership .hover:hover,
+.footer__aboutus .hover:hover {
+    text-shadow: 0 0 3px $white;
+}
+
+.color__item:hover {
+    color: $white;
+}
+
+.footer__links {
+    padding-top: 5%;
+    min-width: 300px;
+}
+
+.footer__catalog-link {
+    text-decoration: none;
+    color: $white;
+}
+
+.footer__catalog-link:hover {
+    color: $white;
+    text-shadow: 0 0 3px $white;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $footer-bg-color;
+        color: $white;
+        padding-left: 10%;
+        height: 1000px;
+    }
+
+    .footer__logo {
+        padding-top: 6%;
+        padding-bottom: 5%;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .footer__catalog,
+    .footer__partnership,
+    .footer__aboutus,
+    .footer__inn,
+    .footer__request,
+    .footer__button2,
+    .footer__links,
+    .footer__rs {
+        width: 25%;
+        min-width: 300px;
+    }
+
+    .button1 {
+        background-color: $btn-bg1-color;
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px rgba(255, 255, 255, 0.1);
+        box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px rgba(255, 255, 255, 0.1);
+        width: 80%;
+        height: 76px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .button2 {
+        background: linear-gradient(to bottom, #E08E44, #77461A);
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: 0 4px 4px $btn-bg1-color;
+        box-shadow: 0 4px 4px $btn-bg1-color;
+        height: 76px;
+        width: 80%;
+        color: $white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .footer__inn {
+        color: $white;
+    }
+
+    .footer__phone {
+        padding-top: 20px;
+        color: $btn-bg1-color;
+    }
+
+    .color {
+        font-family: $default-font;
+        font-size: 20px;
+        line-height: 40px;
+        color: $text-color;
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    
+    .footer__aboutus-link {
+        text-decoration: none;
+        color: $white;
+    }
+
+    .footer__aboutus-link:hover {
+        color: $white;
+        text-shadow: 0 0 3px $white;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        background-color: $footer-bg-color;
+        color: $white;
+        height: 100%;
+    }
+
+    .footer__links {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 5%;
+    }
+
+    .button1 {
+        background-color: $btn-bg1-color;
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px rgba(255, 255, 255, 0.1);
+        box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px rgba(255, 255, 255, 0.1);
+        width: 60%;
+        height: 76px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .button2 {
+        background: linear-gradient(to bottom, #E08E44, #77461A);
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: 0 4px 4px $btn-bg1-color;
+        box-shadow: 0 4px 4px $btn-bg1-color;
+        height: 76px;
+        width: 60%;
+        color: $white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .footer__phone {
+        padding-top: 20px;
+        color: $btn-bg1-color;
+    }
+
+    .footer__request {
+        text-align: center;
+    }
+
+    .footer__inn {
+        display: none;
+    }
+
+    .footer__rs {
+        display: none;
+    }
+
+    .footer__phone {
+        padding-top: 20px;
+        color: $btn-bg1-color;
+    }
+
+    .footer__logo {
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .color {
+        font-family: $default-font;
+        font-size: 20px;
+        line-height: 40px;
+        color: $text-color;
+        font-size: 20px;
+        padding-top: 5%;
+    }
+
+    .color:hover {
+        cursor: pointer;
+    }
+    
+
+    .footer__aboutus-link {
+        text-decoration: none;
+        color: $white;
+    }
+
+    .footer__aboutus-link:hover {
+        color: $white;
+        text-shadow: 0 0 3px $white;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+        flex-grow: 1;
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: $footer-bg-color;
+        color: $white;
+        height: 100%;
+        line-height: 50px;
+    }
+
+    .color,
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__inn {
+        display: none;
+    }
+
+    .footer__links {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 5%;
+    }
+
+    .footer__button2 {
+        padding-bottom: 10%;
+    }
+
+    .button2 {
+        width: 60%;
+    }
+
+    .footer__rs {
+        display: none;
+    }
+
+    .button1 {
+        background-color: $btn-bg1-color;
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px $btn-bg2-color;
+        box-shadow: inset 15px 15px 15px $btn-bg1-color, 3px 3px 12px $btn-bg2-color;
+        width: 60%;
+        height: 76px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .button2 {
+        background: linear-gradient(to bottom, #E08E44, #77461A);
+        border-radius: 80px;
+        border-style: none;
+        -webkit-box-shadow: 0 4px 4px $btn-bg1-color;
+        box-shadow: 0 4px 4px $btn-bg1-color;
+        height: 76px;
+        width: 60%;
+        color: $white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .footer__phone {
+        font-size: 30px;
+        padding-top: 20px;
+        color: $btn-bg1-color;
+    }
+    
+    .footer__aboutus-link {
+        text-decoration: none;
+        color: $white;
+    }
+
+    .footer__aboutus-link:hover {
+        color: $white;
+        text-shadow: 0 0 3px $white;
+    }
+}

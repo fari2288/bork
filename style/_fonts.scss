@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: $default-font;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
+}
+@font-face {
+    font-family: 'GothamPro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts_Gotham\ Pro/GothamPro.woff2') format('woff2'),
+        url('../Fonts_Gotham\ Pro/GothamPro.woff') format('woff'),
+        url('../Fonts_Gotham\ Pro/GothamPro.ttf') format('ttf');
+}
