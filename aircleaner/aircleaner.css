@@ -21,7 +21,7 @@
   }
 
   .new-items__title {
-    grid-row: 2/3;
+    grid-row: 1/2;
     grid-column: 2/3;
     justify-content: space-around;
     align-content: end;
@@ -31,10 +31,11 @@
     font-size: 64px;
     line-height: 61px;
     color: #FFFFFF;
+    border: 1px yellow solid;
   }
 
   .new-items__text {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/3;
     justify-content: space-around;
     align-content: space-around;
@@ -44,6 +45,7 @@
     font-size: 24px;
     line-height: 43px;
     color: rgba(255, 255, 255, 0.6);
+    border: solid 1px yellow;
   }
 
   .new-items__btn {
@@ -60,27 +62,32 @@
     color: #FFFFFF;
     text-align: center;
     cursor: pointer;
+    width: 700px;
+    border: yellow 1px solid;
   }
 
-  .new-items__btn-orange .new-items__btn-whit:hover {
+  .button2:hover,
+.button3:hover {
     box-shadow: #787878 0 0 0.375rem;
   }
 
-  .new-items__btn-orange {
+  .button2 {
     background: linear-gradient(180deg, #E39045 0%, #754519 100%);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
-    width: 302px;
+    color: white;
     height: 92px;
     border-radius: 50px;
+    width: 320px;
   }
 
-  .new-items__btn-white {
-    border: 2px solid #FFFFFF;
+  .button3 {
+    background: transparent;
+    color: white;
     box-sizing: border-box;
-    width: 302px;
     height: 92px;
     border-radius: 50px;
+    width: 320px;
   }
 
   .new-items__next {
