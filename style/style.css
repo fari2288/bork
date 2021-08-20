@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "GothamPro", "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
+}
+@font-face {
+  font-family: "GothamPro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
+}
 .footer {
   font-family: "GothamPro", "Montserrat", sans-serif;
   font-size: 30px;
@@ -1119,17 +1131,5 @@
     padding-top: 5%;
     padding-bottom: 5%;
   }
-}
-@font-face {
-  font-family: "GothamPro", "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
-}
-@font-face {
-  font-family: "GothamPro";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
 /*# sourceMappingURL=style.css.map *//*# sourceMappingURL=style.css.map */
