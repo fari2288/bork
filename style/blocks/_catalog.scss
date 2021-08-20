@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 900px) {
     button.btn-rounded {
         padding-left: 10px;
@@ -23,6 +21,7 @@
     max-width: 100%;
     margin: auto;
     background-color: $black;
+    overflow-x: hidden;
 }
 
 .textpro {

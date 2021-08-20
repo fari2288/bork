@@ -1,28 +1,26 @@
 @font-face {
-  font-family: 'GothamPro';
+  font-family: "GothamPro";
   font-style: normal;
   font-weight: normal;
   src: url("../Fonts_Gotham Pro/GothamPro.woff2") format("woff2"), url("../Fonts_Gotham Pro/GothamPro.woff") format("woff"), url("../Fonts_Gotham Pro/GothamPro.ttf") format("ttf");
 }
-
 @media screen and (max-width: 900px) {
   button.btn-rounded {
     padding-left: 10px;
     padding-right: 30px;
   }
 }
-
 @media all and (max-width: 700px) {
   .tuk {
     margin-left: -50px;
     margin-right: -50px;
   }
+
   .card-link_color {
     font-size: 10px;
     line-height: 14px;
   }
 }
-
 .wrapper-header {
   max-width: 100%;
   margin: auto;
@@ -99,5 +97,4 @@
   color: rgba(255, 255, 255, 0.7);
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

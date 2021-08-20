@@ -1,6 +1,3 @@
-
-
-
 .LP__about-us {
     width: 100%;
     height: 680px;
@@ -115,14 +112,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-    
+
     .LP__about_text-item1 {
         text-align: left;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    
+
     .LP__about_text {
         width: 50%;
         margin: 100px 0px 0px 0px;
@@ -173,6 +170,7 @@
 }
 
 @media screen and (max-width: 767px) {
+
     .container-fluid,
     .LP__about-us {
         display: none;

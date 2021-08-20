@@ -1,12 +1,11 @@
-
 .footer {
-    font-family:$default-font;
+    font-family: $default-font;
     font-size: 30px;
     line-height: 29px;
 }
 
 .button1:hover,
-.button2:hover{
+.button2:hover {
     box-shadow: $lightning;
 }
 
@@ -114,7 +113,7 @@
         font-size: 20px;
         padding-top: 5%;
     }
-    
+
     .footer__aboutus-link {
         text-decoration: none;
         color: $white;
@@ -212,7 +211,7 @@
     .color:hover {
         cursor: pointer;
     }
-    
+
 
     .footer__aboutus-link {
         text-decoration: none;
@@ -299,7 +298,7 @@
         padding-top: 20px;
         color: $btn-bg1-color;
     }
-    
+
     .footer__aboutus-link {
         text-decoration: none;
         color: $white;
