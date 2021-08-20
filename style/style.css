@@ -987,7 +987,7 @@
 @media screen and (min-width: 1024px) {
   .latest {
     background-color: #141313;
-    height: 1200px;
+    height: 800px;
     color: #FFFFFF;
     min-width: 100%;
   }
@@ -1018,7 +1018,7 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 64px;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
   }
 
@@ -1070,7 +1070,7 @@
 
   .latest {
     background-color: #141313;
-    height: 160vh;
+    height: 600px;
     color: #FFFFFF;
     min-width: 100%;
   }
@@ -1087,8 +1087,8 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    padding-top: 30%;
-    padding-bottom: 65px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .price {
@@ -1108,25 +1108,8 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .ellipse {
-    position: absolute;
-    left: 10%;
-    top: 77%;
-    width: 20px;
-    height: 20px;
-  }
-
   .latest {
-    font-family: "GothamPro", "Montserrat", sans-serif;
-    font-size: 20px;
-    line-height: 10px;
-  }
-
-  .latest {
-    background-color: #141313;
-    height: 70vh;
-    color: #FFFFFF;
-    min-width: 100%;
+    display: none;
   }
 
   .latest__title {
@@ -1135,38 +1118,6 @@
     font-size: 20px;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
-
-  .price {
-    font-family: "GothamPro", "Montserrat", sans-serif;
-    font-size: 20px;
-    line-height: 34px;
-    color: rgba(255, 255, 255, 0.4);
-    position: absolute;
-    left: 10%;
-    top: 56%;
-  }
-
-  .logo {
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    width: 5rem;
-  }
-
-  .latest__img-title {
-    position: absolute;
-    left: 10%;
-    top: 40%;
-    min-width: 100%;
-  }
-
-  .polygon {
-    position: absolute;
-    left: 12%;
-    top: 80%;
-    width: 10px;
-    height: 10px;
   }
 }
 @font-face {
